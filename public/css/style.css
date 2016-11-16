@@ -26,7 +26,7 @@ body {
 	line-height: 1.42857143;
 	color: #767677;
 	background-color: #fff;
-
+	
 	margin: 0;
 	padding: 0;
 }
@@ -162,11 +162,12 @@ a {
 }
 a:link {
 	color: #767677;
+	text-decoration: none;
 }
 a:hover,
 a:focus {
-	color: #0f2345;
-	text-decoration: underline;
+	color: #000;
+	text-decoration: none;
 }
 a:focus {
 	outline: 5px auto -webkit-focus-ring-color;
@@ -246,7 +247,7 @@ a:active {
 	font-weight: lighter;
 }
 .main-pic-neva {
-	background:url(../img/new-neva-main.jpg) no-repeat;
+	background:url(/public/img/new-neva-main.jpg) no-repeat;
 
 	background-size: cover;
 	width: auto;
@@ -265,17 +266,17 @@ a:active {
 	height: 727px;
 }
 .main-pic-studios {
-	background:url(../img/main-pic-studios.png) no-repeat;
+	background:url(/public/img/main-pic-studios.png) no-repeat;
 
 	width: auto;
 	height: 727px;
 }
 .main-pic-emotion {
-	background:url(../img/main-pic-emotion.png) no-repeat;
+	background:url(/public/img/main-pic-emotion.png) no-repeat;
 	height: 700px;
 }
 .main-pic-cinemas {
-	background: url(../img/main-pic-cinemas.png) no-repeat;
+	background: url(/public/img/main-pic-cinemas.png) no-repeat;
 	width: auto;
 	height: 727px;
 }
@@ -362,7 +363,7 @@ img .laptop {
     position: relative;
     top: -24px;
     left: 271px;
-
+	
 	font-weight:bold;
 	font-size:12px;
 }
@@ -391,9 +392,9 @@ img .laptop {
 .main-news__preview_item .date {
 	margin-left: 25px;
     display: block;
-
+	
 	margin-top: -12px;
-
+	
 	font-weight:bold;
 	font-size:12px;
 }
@@ -576,7 +577,7 @@ img .laptop {
 .__main-links {
 	padding: 10px;
     margin-left: 26px;
-}
+} 
 .main-menu .sub-menu {
     position: absolute;
     left: 36px;
@@ -615,7 +616,7 @@ and (max-device-width : 994px) {
       margin-right: -33px;
 	}
 }
-
+    
 /********* STYLES FOR MENU THE END********* /
 
 
@@ -640,7 +641,7 @@ and (max-device-width : 994px) {
   -webkit-transition: background 0.3s;
           transition: background 0.3s;
 }
-
+ 
 .cmn-toggle-switch:focus {
   outline: none;
 }
@@ -654,7 +655,7 @@ and (max-device-width : 994px) {
   height: 6px;
   background: white;
 }
-
+ 
 .cmn-toggle-switch span::before,
 .cmn-toggle-switch span::after {
   position: absolute;
@@ -665,11 +666,11 @@ and (max-device-width : 994px) {
   background-color: #fff;
   content: "";
 }
-
+ 
 .cmn-toggle-switch span::before {
   top: -10px;
 }
-
+ 
 .cmn-toggle-switch span::after {
   bottom: -10px;
 }
@@ -677,12 +678,12 @@ and (max-device-width : 994px) {
 .cmn-toggle-switch__htx {
   background-color: #112a4b;
 }
-
+ 
 .cmn-toggle-switch__htx span {
   -webkit-transition: background 0 0.3s;
           transition: background 0 0.3s;
 }
-
+ 
 .cmn-toggle-switch__htx span::before,
 .cmn-toggle-switch__htx span::after {
   -webkit-transition-duration: 0.3s, 0.3s;
@@ -690,17 +691,17 @@ and (max-device-width : 994px) {
   -webkit-transition-delay: 0.3s, 0;
           transition-delay: 0.3s, 0;
 }
-
+ 
 .cmn-toggle-switch__htx span::before {
   -webkit-transition-property: top, -webkit-transform;
           transition-property: top, transform;
 }
-
+ 
 .cmn-toggle-switch__htx span::after {
   -webkit-transition-property: bottom, -webkit-transform;
           transition-property: bottom, transform;
 }
-
+ 
 /* active state*/
 .cmn-toggle-switch__htx.active {
   background-color: #cb0032;
@@ -719,21 +720,21 @@ and (max-device-width : 994px) {
 .cmn-toggle-switch__htx.active span {
   background: none;
 }
-
+ 
 .cmn-toggle-switch__htx.active span::before {
   top: 0;
   -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
           transform: rotate(45deg);
 }
-
+ 
 .cmn-toggle-switch__htx.active span::after {
   bottom: 0;
   -webkit-transform: rotate(-45deg);
       -ms-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
-
+ 
 .cmn-toggle-switch__htx.active span::before,
 .cmn-toggle-switch__htx.active span::after {
   -webkit-transition-delay: 0, 0.3s;
@@ -759,7 +760,7 @@ and (max-device-width : 994px) {
 .__main-links {
 	padding: 10px;
     margin-left: 26px;
-}
+} 
 .main-toggle-menu .sub-menu {
     position: absolute;
     left: 36px;
@@ -979,6 +980,9 @@ and (max-device-width : 994px) {
 	padding-bottom: 20px;
 	color: #383838;
 	text-transform: uppercase;
+}
+.item .carousel-caption a:hover {
+	text-decoration: none;
 }
 .carousel-caption .carousel-caption-research {
 	color: #d86846;
@@ -2160,7 +2164,7 @@ fieldset[disabled] .btn-default.focus {
 .btn-primary {
   color: #ffffff !important;
   background-color: #d86846;
-
+  
 }
 .btn-primary:focus,
 .btn-primary.focus {
