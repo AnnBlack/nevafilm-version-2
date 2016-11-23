@@ -6,22 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>НЕВАФИЛЬМ</title>
     <link href="public/css/normalize.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Ubuntu:400,700&amp;subset=cyrillic-ext" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Ubuntu:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
     <link href="public/css/style.css" rel="stylesheet">
   </head>
     <body>
      <header class="container">
       <div class="row">
-        <nav class="navbar"> 
-                           
+        <nav class="navbar">
+
           <button class="cmn-toggle-switch cmn-toggle-switch__htx">
         <span>toggle menu</span>
       </button>
-          
+
           <a href="/"><img src="public/img/nevafilm-logo.png" class="img-responsive logo" alt="nevafilm-logo" width="150" height="30">
-          </a>      
+          </a>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <ul class="main-menu"> 
+            <ul class="main-menu">
               <li>
                 <a href="/" class="__main-links">NEVAFILM</a>
                   <ul class="sub-menu">
@@ -32,18 +32,18 @@
                     <!-- <li><a href="/school-of-engineers">Школа киноинженеров</a></li> -->
                   </ul>
                 </li>
-                
+
                 <li>
                   <a href="/studios" class="__main-links">STUDIOS</a>
                   <ul class="sub-menu">
-                    <li><a href="/studios/films">Дублирование&nbsp;фильмов</a></li>
-                    <li><a href="/studios/post-production">Post&nbsp;-&nbsp;production</a></li>
-                    <li><a href="/studios/digital-lab">Digital Lab</a></li>
+                    <li><a href="service-studios.html#dubbing">Дублирование&nbsp;фильмов</a></li>
+                    <li><a href="service-studios.html#postproduction">Post&nbsp;-&nbsp;production</a></li>
+                    <li><a href="service-studios.html#digital">Digital Lab</a></li>
                     <li><a href="/studios/materials">Материалы</a></li>
                     <li><a href="/studios/studios-contacts"><b>Контакты</b></a></li>
                   </ul>
                 </li>
-                
+
                 <li>
                   <a href="/cinemas" class="__main-links">CINEMAS</a>
                   <ul class="sub-menu">
@@ -54,7 +54,7 @@
                     <li><a href="/cinemas/cinemas-contacts"><b>Контакты</b></a></li>
                   </ul>
                 </li>
-                
+
                 <li>
                   <a href="/research" class="__main-links">RESEARCH</a>
                   <ul class="sub-menu">
@@ -65,7 +65,7 @@
                     <li><a href="/research/research-contacts"><b>Контакты</b></a></li>
                   </ul>
                 </li>
-                
+
                 <li>
                   <a href="/emotion" class="__main-links">EMOTION</a>
                   <ul class="sub-menu">
@@ -88,11 +88,11 @@
      <img src="public/img/404.png" alt="404.png" width="1200" height="700">
      <a href="/"><img src="public/img/nevafilm-logo.png" alt="nevafilm-logo" title="Перейти на главную" class="not-found-page__logo" width="177" height="46"></a>
      <span class="not-found-page__line"></span>
-     <p class="not-found-page__description">Так уж получилось, что из множества страниц нашего сайта 
+     <p class="not-found-page__description">Так уж получилось, что из множества страниц нашего сайта
 вы оказались как раз на той, которая находится в разработке</p>
      </div>
-    </div>	
-   </main>	
+    </div>
+   </main>
    <footer class="container">
       <div class="row">
         <div class="col-md-5">
@@ -162,7 +162,7 @@
             <address>
               199397, Санкт-Петербург,<br>
               ул. Кораблестроителей, д. 33/2 Б<br>
-              <abbr title="Phone">P:</abbr> (812) 449-7070<br> 
+              <abbr title="Phone">P:</abbr> (812) 449-7070<br>
               <abbr title="Fax">F:</abbr>(812) 352-6969
             </address>
             <address>
@@ -173,7 +173,7 @@
             <address>
               127051, Москва,<br>
               Цветной бульвар, д. 30, стр. 1<br>
-              Бизнес-центр "Цветной 30" 3-й этаж,<br> 
+              Бизнес-центр "Цветной 30" 3-й этаж,<br>
               офис 307<br>
               <abbr title="Phone">P:</abbr> (495) 699-7070
             </address>
@@ -190,23 +190,23 @@
     <script src="public/js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="public/js/bootstrap.min.js"></script>
-      <script>    
+      <script>
         (function() {
-         
+
           "use strict";
-         
+
           var toggles = document.querySelectorAll(".cmn-toggle-switch");
-         
+
           for (var i = toggles.length - 1; i >= 0; i--) {
             var toggle = toggles[i];
             toggleHandler(toggle);
           }
-        
+
           $(document).ready(function() {
           // This will fire when document is ready:
           $(window).resize(function() {
             // This will fire each time the window is resized:
-           if($(window).width() < 850) { 
+           if($(window).width() < 850) {
                // if smaller or equal
                $(".cmn-toggle-switch__htx").show();
            } else {
@@ -221,7 +221,7 @@
               (this.classList.contains("active") === true) ? this.classList.remove("active") : this.classList.add("active");
             });
           }
-         
+
         })();
     </script>
   </body>
