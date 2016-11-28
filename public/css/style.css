@@ -535,27 +535,19 @@ a .hashtag:hover {
 	border-bottom: 10px solid white;
 }
 .studios-service-description {
+	width: 100%;
   text-align: left;
   font-size: 1.3em;
-	margin-top: 0px;
-	margin-left: -95px;
 	font-weight: lighter;
 	color: #000;
-}
-.dubbing-pic {
-  margin-top: 100px;
-	margin-bottom: 30px;
 }
 .studios-service-section figcaption {
 	font-size: 1.5em;
 	font-weight: lighter;
 	margin-bottom: 41px;
-	width: 99%;
-	left: 41px;
-	top: 7px;
-	position: relative;
-	text-align: left;
+	width: 90%;
 	color: #000;
+	margin-left: auto;
 }
 .studios-service-section header {
 	margin-top: 50px;
@@ -574,7 +566,6 @@ a .hashtag:hover {
 	background-color: #f2f2f2;
 	padding-top: 1px;
 	border-bottom: 10px solid white;
-	margin-bottom: 60px;
 }
 .studios-section-digital header {
 	margin-top: 88px;
@@ -595,15 +586,22 @@ a .hashtag:hover {
 	color: #000;
 }
 .flex-wrapper {
-	display: -webkit-flex;
-  -webkit-justify-content: flex-start;
-  display: flex;
-  justify-content: center;
-	align-items: baseline;
-	flex-wrap: wrap;
+	/** подключает flex-контекст для всех его непосредственных потомков  **/
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    /** Устанавливает главную ось main-axis, определяя тем самым направление для flex-элементов, размещаемых в контейнере.  **/
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+		align-items: baseline;
+		flex-wrap: wrap;
+    /** Задаём ширину и выравниваем этот блок по центру  **/
+    max-width: 1280px;
+    margin: 0 auto;
 }
 .flex-item {
-	width: 75%;
+	width: 90%;
 	min-height: 30px;
 	position: relative;
 	left: 97px;
@@ -613,12 +611,12 @@ a .hashtag:hover {
 	width: 100%;
 	min-height: 30px;
 	position: relative;
-	left: 260px;
+	left: 280px;
 	top: 60px;
 	flex-basis: 51%;
 }
 .flex-item-two {
-  flex-basis: 35%;
+  flex-basis: 45%;
 	margin-top: 50px;
 }
 .flex-item-three {
@@ -629,7 +627,37 @@ a .hashtag:hover {
 	flex-basis: 20%;
 	margin-top: 50px;
 }
-
+@media (max-width: 1019px) {
+	.flex-item {
+		width: 85%;
+	}
+	.flex-item-one {
+		width: 60%;
+		left: 170px;
+	}
+	.flex-item-two {
+		width: 25%;
+	}
+}
+@media (max-width: 480px) {
+	.flex-item {
+		width: 99%;
+		left: 0;
+	}
+	.flex-item-one {
+		left: 0;
+		flex-basis: 100%;
+	}
+	.flex-item-two {
+		flex-basis: 93%;
+	}
+	.studios-section-digital figcaption {
+		left: 20px;
+	}
+	.studios-service-section header {
+		font-size: 1.9em;
+	}
+}
 /** new version **/
 .studios-service_nav {
 	width: 100%;
@@ -652,9 +680,6 @@ a .hashtag:hover {
 	font-weight: lighter;
 	text-align: center;
 }
-.item-nav-1_title a {
-	border-bottom: 1px solid #000;
-}
 .dubbing-wrapper {
 	background: url("../img/dubbing-01.min.svg") no-repeat;
 	background-size: 30%;
@@ -662,23 +687,32 @@ a .hashtag:hover {
 	height: 656px;
 	position: absolute;
 	opacity: 0.2;
-	background-position: 51% -5%;
+	background-position: 51% 19%;
 }
 .postproduction-wrapper {
 	background: url("../img/post_production-01.min.svg") no-repeat;
 	background-size: 38%;
-	background-position: 51% 13%;
+	background-position: 51% 95%;
 	width: 100%;
-	height: 656px;
+	height: 385px;
 	position: absolute;
 	opacity: 0.2;
 }
 .digital-wrapper {
 	background: url("../img/digital_lab-01.min.svg") no-repeat;
 	background-size: 28%;
-	background-position: 50% 18%;
+	background-position: 50% 50%;
 	width: 100%;
-	height: 656px;
+	height: 433px;
+	position: absolute;
+	opacity: 0.1;
+}
+.tiflo-wrapper {
+	background: url("../img/Tifla-01.min.svg") no-repeat;
+	background-size: 23%;
+	background-position: 50% 8%;
+	width: 100%;
+	height: 270px;
 	position: absolute;
 	opacity: 0.1;
 }
@@ -2700,6 +2734,7 @@ input[type="button"].btn-block {
   font-size: 19px;
   border-radius: 24px;
 	margin-top: 100px;
+	cursor: pointer;
 }
 .studios-btn:hover {
 	background-color: #d60200;
