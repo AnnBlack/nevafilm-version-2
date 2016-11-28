@@ -548,7 +548,7 @@ a .hashtag:hover {
 	margin-bottom: 30px;
 }
 .studios-service-section figcaption {
-	font-size: 1.9em;
+	font-size: 1.5em;
 	font-weight: lighter;
 	margin-bottom: 41px;
 	width: 99%;
@@ -579,6 +579,7 @@ a .hashtag:hover {
 }
 .studios-section-digital header {
 	margin-top: 88px;
+	margin-bottom: 20px;
 	color: #e6383b;
 	font-size: 3em;
 	text-align: center;
@@ -586,7 +587,7 @@ a .hashtag:hover {
 	font-weight: lighter;
 }
 .studios-section-digital figcaption {
-	font-size: 1.9em;
+	font-size: 1.5em;
 	font-weight: lighter;
 	width: 90%;
 	position: relative;
@@ -602,12 +603,20 @@ a .hashtag:hover {
 	align-items: baseline;
 	flex-wrap: wrap;
 }
-.flex-item-one {
-	width: 51%;
+.flex-item {
+	width: 75%;
 	min-height: 30px;
 	position: relative;
-	left: 366px;
+	left: 97px;
 	top: 60px;
+}
+.flex-item-one {
+	width: 100%;
+	min-height: 30px;
+	position: relative;
+	left: 260px;
+	top: 60px;
+	flex-basis: 51%;
 }
 .flex-item-two {
   flex-basis: 35%;
@@ -649,26 +658,26 @@ a .hashtag:hover {
 }
 .dubbing-wrapper {
 	background: url("../img/dubbing-01.min.svg") no-repeat;
-	background-size: 22%;
+	background-size: 30%;
 	width: 100%;
 	height: 656px;
 	position: absolute;
-	opacity: 0.3;
-	background-position: 334px;
+	opacity: 0.2;
+	background-position: 51% -5%;
 }
 .postproduction-wrapper {
 	background: url("../img/post_production-01.min.svg") no-repeat;
-	background-size: 30%;
-	background-position: 22% 22%;
+	background-size: 38%;
+	background-position: 51% 13%;
 	width: 100%;
 	height: 656px;
 	position: absolute;
-	opacity: 0.3;
+	opacity: 0.2;
 }
 .digital-wrapper {
 	background: url("../img/digital_lab-01.min.svg") no-repeat;
 	background-size: 28%;
-	background-position: 21%;
+	background-position: 50% 18%;
 	width: 100%;
 	height: 656px;
 	position: absolute;
