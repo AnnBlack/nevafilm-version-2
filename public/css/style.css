@@ -186,7 +186,6 @@ a:active {
 #main_title_neva, #main_subtitle_neva, #main_description_neva {
 	color: #152E51;
   font-weight: lighter;
-	text-shadow: 0px 0px 1px black, 0 0 1em white;
 }
 #main_title_neva, #main_title_cinemas, #main_title_studios, #main_title_emotion, #main_title_research {
 	width: 300px;
@@ -553,7 +552,7 @@ a .hashtag:hover {
 	margin-bottom: 41px;
 	width: 99%;
 	left: 41px;
-	top: -10px;
+	top: 7px;
 	position: relative;
 	text-align: left;
 	color: #000;
@@ -570,7 +569,7 @@ a .hashtag:hover {
 }
 .studios-section-digital {
 	width: 100%;
-  min-height: 930px;
+  min-height: 785px;
   text-align: center;
 	background-color: #f2f2f2;
 	padding-top: 1px;
