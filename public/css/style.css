@@ -203,9 +203,8 @@ a:active {
 	font-size: 1.4em;
 }
 #main_subtitle_research, #main_description_research {
-	color: #fff;
+	color: #000;
 	font-weight: lighter;
-	text-shadow: 1px 1px 2px black, 0 0 1em black;
 }
 #main_subtitle_studios, #main_subtitle_emotion {
 	color: #000;
@@ -213,7 +212,6 @@ a:active {
 }
 #main_title_research {
 	color: #f4943f;
-	text-shadow: 1px 1px 2px black, 0 0 3em white;
 }
 #main_description_research {
 	font-size: 1.4em;
@@ -247,16 +245,19 @@ a:active {
 	height: 720px;
 }
 .main-pic-research {
-/*background: -moz-linear-gradient(275deg, rgba(255,255,255,0.2) 0%, rgba(192,192,192,1) 100%);
+background: -moz-linear-gradient(275deg, rgba(255,255,255,0.2) 0%, rgba(192,192,192,1) 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,0.2)), color-stop(100%, rgba(192,192,192,1)));
 	background: -webkit-linear-gradient(275deg, rgba(255,255,255,0.2) 0%, rgba(192,192,192,1) 100%);
 	background: -o-linear-gradient(275deg, rgba(255,255,255,0.2) 0%, rgba(192,192,192,1) 100%);
 	background: -ms-linear-gradient(275deg, rgba(255,255,255,0.2) 0%, rgba(192,192,192,1) 100%);
 	background: linear-gradient(175deg, rgba(255,255,255,0.2) 0%, rgba(192,192,192,1) 100%); /
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#c0c0c0',GradientType=0 ); */
-	background:url(../img/35.jpg) no-repeat;
-	background-position: 4%;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#c0c0c0',GradientType=0 );
 	height: 720px;
+}
+.main-pic-research img {
+	position: relative;
+	top: -16px;
+	overflow: hidden;
 }
 .main-pic-studios {
 	background:url(../img/main-pic-studios.png) no-repeat;
@@ -269,9 +270,11 @@ a:active {
 	height: 720px;
 }
 .main-pic-cinemas {
-	background: url(../img/main-pic-cinemas.jpg) no-repeat;
+	background: url(../img/cinemas-main.png) no-repeat;
 	width: auto;
 	height: 720px;
+	background-size: 47%;
+	background-position: 20% 101%;
 }
 img .laptop {
 	position: relative;
@@ -526,7 +529,7 @@ a .hashtag:hover {
 /********* Styles for STUDIOS SERVICE PAGE *********/
 .studios-service-section {
 	width: 100%;
-  min-height: 865px;
+  min-height: 666px;
   text-align: center;
 	background-color: #f2f2f2;
 	padding-top: 1px;
@@ -534,40 +537,45 @@ a .hashtag:hover {
 }
 .studios-service-description {
   text-align: left;
-  font-size: 20px;
+  font-size: 1.3em;
 	margin-top: 0px;
 	margin-left: -95px;
+	font-weight: lighter;
+	color: #000;
 }
 .dubbing-pic {
   margin-top: 100px;
 	margin-bottom: 30px;
 }
 .studios-service-section figcaption {
-	font-size: 2.9em;
+	font-size: 1.9em;
 	font-weight: lighter;
-	margin-bottom: 51px;
+	margin-bottom: 41px;
 	width: 99%;
-	left: -91px;
+	left: 41px;
+	top: -10px;
 	position: relative;
 	text-align: left;
+	color: #000;
 }
 .studios-service-section header {
-	margin-top: 88px;
+	margin-top: 50px;
 }
 .studios-service-section header {
 	color: #e6383b;
-	font-size: 3em;
+	font-size: 2em;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: lighter;
 }
 .studios-section-digital {
 	width: 100%;
-  min-height: 1012px;
+  min-height: 930px;
   text-align: center;
 	background-color: #f2f2f2;
 	padding-top: 1px;
 	border-bottom: 10px solid white;
+	margin-bottom: 60px;
 }
 .studios-section-digital header {
 	margin-top: 88px;
@@ -580,10 +588,11 @@ a .hashtag:hover {
 .studios-section-digital figcaption {
 	font-size: 1.9em;
 	font-weight: lighter;
-	width: 78%;
+	width: 90%;
 	position: relative;
-	left: 200px;
+	left: 97px;
 	text-align: left;
+	color: #000;
 }
 .flex-wrapper {
 	display: -webkit-flex;
@@ -616,7 +625,7 @@ a .hashtag:hover {
 /** new version **/
 .studios-service_nav {
 	width: 100%;
-	min-height: 600px;
+	min-height: 395px;
 	background-color: #fff;
 	display: flex;
 	justify-content: center;
@@ -625,11 +634,12 @@ a .hashtag:hover {
 	margin-top: 50px;
 }
 .item-nav-1 {
-	flex-basis: 25%;
+	flex-basis: 24%;
 	text-align: center;
+	margin-right: 2px;
 }
 .item-nav-1_title {
-	font-size: 20px;
+	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: lighter;
 	text-align: center;
@@ -639,17 +649,17 @@ a .hashtag:hover {
 }
 .dubbing-wrapper {
 	background: url("../img/dubbing-01.min.svg") no-repeat;
-	background-size: 33%;
+	background-size: 22%;
 	width: 100%;
 	height: 656px;
 	position: absolute;
 	opacity: 0.3;
-	background-position: 70px;
+	background-position: 334px;
 }
 .postproduction-wrapper {
 	background: url("../img/post_production-01.min.svg") no-repeat;
-	background-size: 57%;
-	background-position: 30px;
+	background-size: 30%;
+	background-position: 22% 22%;
 	width: 100%;
 	height: 656px;
 	position: absolute;
@@ -657,12 +667,12 @@ a .hashtag:hover {
 }
 .digital-wrapper {
 	background: url("../img/digital_lab-01.min.svg") no-repeat;
-	background-size: 38%;
-	background-position: 7%;
+	background-size: 28%;
+	background-position: 21%;
 	width: 100%;
 	height: 656px;
 	position: absolute;
-	opacity: 0.2;
+	opacity: 0.1;
 }
 /********* Styles for STUDIOS SERVICE PAGE the end *********/
 
