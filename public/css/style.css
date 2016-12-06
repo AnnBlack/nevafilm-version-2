@@ -110,7 +110,7 @@ h3,
 
 h4,
 .h4 {
-	font-size: 1.1em;
+	font-size: 1em;
 	font-weight: normal;
 	text-transform: uppercase;
 }
@@ -432,6 +432,9 @@ a .hashtag:hover {
 		flex-basis: 75%;
 		margin-top: 30px;
 		margin-right: 2%;
+
+		font-size: 1.2em;
+		margin-bottom: 60px;
 }
 .flex-item-two {
   flex-basis: 45%;
@@ -446,6 +449,7 @@ a .hashtag:hover {
 .flex-item-four {
 	flex-basis: 20%;
 	margin-top: 30px;
+	margin-bottom: 200px;
 }
 @media (max-width: 1019px) {
 	.flex-item {
@@ -997,7 +1001,105 @@ margin-bottom: 15px;
 	position: absolute;
 	opacity: 0.1;
 }
+.popuptext_description {
+	width: 113%;
+	position: relative;
+	top: -20px;
+}
 /********* СТИЛИ ДЛЯ СТРАНИЦ ОТДЕЛА STUDIOS КОНЕЦ *********/
+
+
+/********* СТИЛИ ДЛЯ СТРАНИЦ ОТДЕЛА RESEARCH  *********/
+.main-pic-CM {
+	background: url(../img/cinema-market.png) no-repeat;
+	background-size: 100%;
+	height: 253px;
+}
+.research-service-title {
+	font-size: 4vw;
+	position: relative;
+	text-align: left;
+	margin-left: 200px;
+	color: #fff;
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: lighter;
+}
+.research-service-subtitle {
+	color: #f4943f;
+	font-weight: lighter;
+}
+.research-service-costs {
+	background: url('../img/ruble.min.svg') no-repeat;
+	background-size: 80%;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	height: 50px;
+	width: 50px;
+}
+.research-service-tel {
+	background: url('../img/phone-call.min.svg') no-repeat;
+	background-size: 80%;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	height: 50px;
+	width: 50px;
+}
+.research-service-email {
+	background: url('../img/email.min.svg') no-repeat;
+	background-size: 80%;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	height: 50px;
+	width: 50px;
+}
+.research-service-pdf {
+	background: url('../img/pdf.min.svg') no-repeat;
+	background-size: 80%;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	height: 50px;
+	width: 50px;
+}
+.asideResearchItem {
+	opacity: 0.6;
+}
+.asideResearchItem:hover {
+	position: relative;
+	opacity: 1;
+	transform: scale(1);
+}
+.asideResearchItemTitle {
+	color: #f4943f;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.asideResearchItemImg {
+	border-radius: 10px;
+}
+.contacts-form {
+  width: 100%;
+  box-sizing: border-box;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+input {
+  width: 60%;
+  font-size: 18px;
+  margin-bottom: 9px;
+}
+textarea {
+  overflow: auto;
+  width: 60%;
+}
+.research-service-about {
+	font-weight: lighter;
+}
+/********* СТИЛИ ДЛЯ СТРАНИЦ ОТДЕЛА RESEARCH КОНЕЦ *********/
 
 /********* ФУТЕР *********/
 .hot-spots .hot-spots_item {

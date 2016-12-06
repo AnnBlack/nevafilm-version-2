@@ -210,9 +210,15 @@
       <div class="flex-wrapper">
 
         <div class="flex-item-one">
-          <figure>
+          <a href="#first" onclick="showHide('first');">
+            <figure>
             <figcaption>Речевое озвучивание</figcaption>
-          </figure>
+            </figure>
+          </a>
+          <div id="first" style="display:none">
+            <p class="popuptext_description">Уютные студии озвучивания с профессиональным оборудованием в Москве и Санкт-Петербурге. Опыт работы со «звездами», с российскими и иностранными проектами. Опытные звукорежиссеры, режиссеры и ассистенты.
+            </p>
+          </div>
         </div>
 
         <div class="flex-item-one">
@@ -456,5 +462,14 @@
 
         })();
     </script>
+    <script type='text/javascript'>
+  function showHide(divId)
+  {
+      if ( document.getElementById(divId).style.display == 'block' )
+          document.getElementById(divId).style.display = 'none';
+      else
+          document.getElementById(divId).style.display = 'block';
+  }
+  </script>
   </body>
 </html>
