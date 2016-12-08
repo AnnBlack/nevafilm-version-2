@@ -1015,14 +1015,28 @@ margin-bottom: 15px;
 	background-size: 100%;
 	height: 253px;
 }
+.main-pic-PR {
+	background: url(../img/premium-research.png) no-repeat;
+	background-size: 100%;
+	height: 253px;
+}
+.main-pic-MR {
+	background: url(../img/marketing-research.png) no-repeat;
+	background-size: 100%;
+	height: 253px;
+}
+.main-pic-R {
+	background: url(../img/reports.png) no-repeat;
+	background-size: 100%;
+	height: 253px;
+}
 .research-service-title {
-	font-size: 4vw;
+	font-size: 3em;
 	position: relative;
+	top: -115px;
+	margin-top: -75px;
 	text-align: left;
-	margin-left: 200px;
 	color: #fff;
-	display: inline-block;
-	vertical-align: middle;
 	font-weight: lighter;
 }
 .research-service-subtitle {
@@ -1968,3 +1982,21 @@ fieldset[disabled] .btn-primary.focus {
 	left: 247px;
 }
 /****** СТРАНИЦА 404 THE END *******/
+
+/****** СТИЛИ ДЛЯ ТАБЛИЦ ******/
+table {
+	width: 90%;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 5px;
+	padding-right: 10px;
+	border: 1px solid #BFBFBF;
+}
+
+th {
+	padding: 10px;
+	border: 1px solid #BFBFBF;
+}
+/****** СТИЛИ ДЛЯ ТАБЛИЦ ******/
