@@ -1079,6 +1079,56 @@ margin-bottom: 15px;
 	height: 50px;
 	width: 50px;
 }
+.research-service-list {
+	width: 90%;
+	position: relative;
+	top: -35px;
+}
+.research-service-list li {
+	list-style: none;
+	padding: 15px;
+}
+.research-service-russia {
+	background: url('../img/Russia-01.min.svg') no-repeat;
+	background-size: 80%;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	height: 50px;
+	width: 50px;
+	top: 50px;
+}
+.research-service-kazahstan {
+	background: url('../img/Kazakhstan.min.svg') no-repeat;
+	background-size: 80%;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	height: 50px;
+	width: 50px;
+	top: 50px;
+}
+.research-service-belarus {
+	background: url('../img/Belarus.min.svg') no-repeat;
+	background-size: 80%;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	height: 50px;
+	width: 50px;
+	top: 50px;
+}
+.research-service-issledovaniya {
+	background: url('../img/Isledovaniy.min.svg') no-repeat;
+	background-size: 80%;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	height: 50px;
+	width: 50px;
+	top: 50px;
+}
+
 .asideResearchItem {
 	opacity: 0.6;
 }
