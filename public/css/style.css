@@ -1128,6 +1128,16 @@ margin-bottom: 15px;
 	width: 50px;
 	top: 50px;
 }
+.research-service-calendar {
+	background: url('../img/calendar.min.svg') no-repeat;
+	background-size: 80%;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	height: 50px;
+	width: 50px;
+}
+
 
 .asideResearchItem {
 	opacity: 0.6;
@@ -2037,6 +2047,7 @@ fieldset[disabled] .btn-primary.focus {
 table {
 	width: 90%;
 	border-collapse: collapse;
+	margin-bottom: 20px;
 }
 
 td {
