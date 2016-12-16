@@ -1030,8 +1030,13 @@ margin-bottom: 15px;
 	background-size: 100%;
 	height: 253px;
 }
+.main-pic-Lib {
+	background: url(../img/library-mainpic.png) no-repeat;
+	background-size: 100%;
+	height: 253px;
+}
 .research-service-title {
-	font-size: 3em;
+	font-size: 4em;
 	position: relative;
 	top: -115px;
 	margin-top: -75px;
@@ -1137,8 +1142,36 @@ margin-bottom: 15px;
 	height: 50px;
 	width: 50px;
 }
-
-
+.research-service-rep1 {
+	background: url('../img/icon_library-01.min.svg') no-repeat;
+	background-size: 80%;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	height: 50px;
+	width: 50px;
+	top: 50px;
+}
+.research-service-rep2 {
+	background: url('../img/icon_library-02.min.svg') no-repeat;
+	background-size: 93%;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	height: 50px;
+	width: 50px;
+	top: 50px;
+}
+.research-service-rep3 {
+	background: url('../img/icon_library-03.min.svg') no-repeat;
+	background-size: 80%;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	height: 50px;
+	width: 50px;
+	top: 50px;
+}
 .asideResearchItem {
 	opacity: 0.6;
 }
