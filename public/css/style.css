@@ -1175,6 +1175,7 @@ margin-bottom: 15px;
 .top-align {
 	top: 0;
 }
+
 .asideResearchItem {
 	opacity: 0.6;
 }
@@ -1222,7 +1223,15 @@ textarea {
 	width: 60%;
 	margin-left: 50px;
 	position: relative;
-	top: -20px;}
+	top: -20px;
+}
+.research-books {
+	display: inline-block;
+	vertical-align: top;
+	width: 90%;
+	position: relative;
+	top: -20px;
+}
 /********* СТИЛИ ДЛЯ СТРАНИЦ ОТДЕЛА RESEARCH КОНЕЦ *********/
 
 
@@ -1242,14 +1251,15 @@ textarea {
 	line-height: 1.2;
 }
 .cinemas-equip-pic {
-	background: url(../img/cinemas-equipmain-pic.png) no-repeat;
+	background: url('../img/cinemas-equipmain-pic.png') no-repeat;
 	background-size: 100%;
 	height: 161px;
 }
 .cinemas-service-title {
 	font-size: 3em;
 	position: relative;
-	margin-top: -119px;
+	top: -65px;
+	margin-top: -50px;
 	text-align: left;
 	color: #fff;
 	font-weight: lighter;
@@ -1257,13 +1267,165 @@ textarea {
 .cinemas-service-subtitle {
 	color: #69ac74;
 	font-weight: lighter;
+	margin-top: 60px;
 }
 .asideCinemasItemTitle {
 	color: #69ac74;
 	text-transform: uppercase;
 	font-size: 14px;
 }
+.equip-toggle {
+	width: 35px;
+	height: 35px;
+	background: url('../img/minus.png') no-repeat;
+	cursor: pointer;
+	display: inline-block;
+	float: right;
+	position: relative;
+	top: -68px;
+	right: 40px;
+}
+.equip-toggle-plus {
+	width: 35px;
+	height: 35px;
+	background: url('../img/toggle-plus.png') no-repeat;
+	cursor: pointer;
+	display: inline-block;
+	float: right;
+	position: relative;
+	top: -68px;
+	right: 40px;
+}
+.cinemas-equip-item {
+	width: 260px;
+	min-height: 300px;
+	border: 1px solid #E0E0E0;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.cinemas-equip-item-full {
+	width: 95%;
+	border: 1px solid #E0E0E0;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+.cinemas-equip-item-middle {
+	width: 48%;
+	border: 1px solid #E0E0E0;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+.cinemas-equip-item:hover {
+	-webkit-transform: scale(1.1,1.1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1.1,1.1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+}
+/*.cinemas-equip-item-hide {
+	display: none;
+}
+.cinemas-equip-item-show {
+	display: block;
+}*/
+.cinemas-equip-item img {
+	margin-top: 20px;
+}
+.cinemas-equip-item-full img {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 809px;
+	height: 150px;
+}
+.cinemas-equip-item-middle img {
+	margin-top: 20px;
+	width: 380px;
+	height: 150px;
+	margin-left: 14px;
+}
+.cinemas-equip-item-title {
+	font-weight: bold;
+	text-align: center;
+}
+.cinemas-equip-item-descrip {
+	margin-left: 20px;
+	margin-right: 17px;
+	width: 222px;
+	font-size: 14px;
+}
+.cinemas-equip-item-descrip-full {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	font-size: 14px;
+	text-align: center;
+}
+.galery-pic-left {
+	width: 550px;
+	margin-top: 50px;
+	margin-bottom: 90px;
+	min-height: 400px;
+	display: inline-block;
+	vertical-align: top;
+}
+.big-picture {
+	padding: 20px;
+	box-sizing: border-box;
+	min-height: 457px;
+	width: 600px;
+}
+.small-picture {
+	width: 130px;
+	height: 130px;
+	margin-left: 27px;
+	padding: 10px;
+}
+.item-pic-description {
+	display: inline-block;
+	vertical-align: top;
+	width: 46%;
+	float: right;
+	font-size: 1.2em;
+}
+.text-cinemas-color {
+	color: #69ac74;
+}
+.item-techniche-specification {
+	width: 100%;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+.cinemas-service-tel {
+	background: url('../img/phone-call.cinemas.min.svg') no-repeat;
+	background-size: 80%;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	height: 50px;
+	width: 50px;
+}
+.cinemas-service-email {
+	background: url('../img/email-cinemas.min.svg') no-repeat;
+	background-size: 80%;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	height: 50px;
+	width: 50px;
+}
 /********* СТИЛИ ДЛЯ СТРАНИЦ ОТДЕЛА CINEMAS КОНЕЦ *********/
+
 
 
 /********* ФУТЕР *********/
