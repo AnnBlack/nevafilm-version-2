@@ -1263,6 +1263,7 @@ textarea {
 	text-align: left;
 	color: #fff;
 	font-weight: lighter;
+	text-transform: uppercase;
 }
 .cinemas-service-subtitle {
 	color: #69ac74;
@@ -1338,6 +1339,18 @@ textarea {
 .cinemas-equip-item-show {
 	display: block;
 }*/
+.cinemas_img_height {
+	margin-top: 20px;
+	width: 350px;
+	height: 350px;
+	margin-left: 14px;
+}
+.cinemas_img_middle {
+	margin-top: 20px;
+	width: 380px;
+	height: 150px;
+	margin-left: 14px;
+}
 .cinemas-equip-item img {
 	margin-top: 20px;
 }
@@ -1347,12 +1360,6 @@ textarea {
 	margin-right: auto;
 	width: 809px;
 	height: 150px;
-}
-.cinemas-equip-item-middle img {
-	margin-top: 20px;
-	width: 380px;
-	height: 150px;
-	margin-left: 14px;
 }
 .cinemas-equip-item-title {
 	font-weight: bold;
@@ -1368,6 +1375,13 @@ textarea {
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+	font-size: 14px;
+	text-align: center;
+}
+.cinemas-equip-item-descrip-middle {
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
 	font-size: 14px;
 	text-align: center;
 }
