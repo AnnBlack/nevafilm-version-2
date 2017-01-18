@@ -1300,22 +1300,29 @@ textarea {
 }
 .cinemas-nav a {
 	display: inline-block;
-	width: 140px;
+	width: 150px;
+	height: 50px;
 	text-align: center;
 	vertical-align: top;
-	line-height: 1.2;
+	line-height: 20px;
+	color: #fff;
+	padding: 3px;
+	border-radius: 10px;
+	background-color: #00a15d;
+	margin-bottom: 4px;
+}
+.cinemas-nav a:hover {
+	background-color: #2d6a4a;
 }
 .cinemas-equip-pic {
 	background: url('../img/cinemas-equipmain-pic.png') no-repeat;
 	background-size: 100%;
-	height: 161px;
+	min-height: 60px;
 }
 .cinemas-service-title {
 	font-size: 3em;
 	position: relative;
-	top: -65px;
-	margin-top: -50px;
-	text-align: left;
+	top: 10px;
 	color: #fff;
 	font-weight: lighter;
 	text-transform: uppercase;
@@ -1339,7 +1346,7 @@ textarea {
 	float: right;
 	position: relative;
 	top: -68px;
-	right: 40px;
+	right: -10px;
 }
 .equip-toggle-plus {
 	width: 35px;
@@ -1363,7 +1370,7 @@ textarea {
 	cursor: pointer;
 }
 .cinemas-equip-item-full {
-	width: 95%;
+	width: 100%;
 	border: 1px solid #E0E0E0;
 	display: inline-block;
 	vertical-align: top;
@@ -1396,24 +1403,20 @@ textarea {
 }*/
 .cinemas_img_height {
 	margin-top: 20px;
-	width: 350px;
+	max-width: 100%;
 	height: 350px;
-	margin-left: 14px;
 }
 .cinemas_img_middle {
 	margin-top: 20px;
-	width: 380px;
+	max-width: 100%;
 	height: 150px;
-	margin-left: 14px;
 }
 .cinemas-equip-item img {
 	margin-top: 20px;
 }
 .cinemas-equip-item-full img {
 	margin-top: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 809px;
+	max-width: 100%;
 	height: 150px;
 }
 .cinemas-equip-item-title {
@@ -1441,8 +1444,7 @@ textarea {
 	text-align: center;
 }
 .galery-pic-left {
-	width: 550px;
-	margin-top: 50px;
+	max-width: 100%;
 	margin-bottom: 90px;
 	min-height: 400px;
 	display: inline-block;
@@ -1452,7 +1454,7 @@ textarea {
 	padding: 20px;
 	box-sizing: border-box;
 	min-height: 457px;
-	width: 600px;
+	max-width: 100%;
 }
 .small-picture {
 	width: 130px;
@@ -1461,10 +1463,7 @@ textarea {
 	padding: 10px;
 }
 .item-pic-description {
-	display: inline-block;
-	vertical-align: top;
-	width: 46%;
-	float: right;
+	width: 100%%;
 	font-size: 1.2em;
 }
 .text-cinemas-color {
@@ -1492,6 +1491,48 @@ textarea {
 	vertical-align: top;
 	height: 50px;
 	width: 50px;
+}
+@media (max-width: 1199px) {
+	.cinemas-service-title {
+		font-size: 2em;
+	}
+	.flex-item-content {
+		flex-basis: 100%;
+	}
+	.flex-item-four {
+		margin-left: 40px;
+	}
+}
+@media (max-width: 570px) {
+	.cinemas-service-title {
+		font-size: 1.5em;
+	}
+	.cinemas-equip-item {
+		margin-left: 35px;
+	}
+	.item-subtitle {
+		width: 80%;
+		display: block;
+	}
+}
+@media (max-width: 470px) {
+	.cinemas-service-title {
+		font-size: 1em;
+		margin-top: 0px;
+	}
+	.cinemas-equip-item-middle {
+			width: 100%;
+	}
+	.breadcrumbs {
+		width: 50%;
+	}
+	.item-subtitle {
+		width: 90%;
+	}
+	.galery-pic-left {
+		margin-bottom: 0px;
+		display: block;
+	}
 }
 /********* СТИЛИ ДЛЯ СТРАНИЦ ОТДЕЛА CINEMAS КОНЕЦ *********/
 
