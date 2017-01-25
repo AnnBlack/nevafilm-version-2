@@ -99,7 +99,6 @@ h2,
 .h2 {
 	font-size: 2em;
 }
-
 h3,
 .h3 {
 	font-size: 1.2em;
@@ -475,11 +474,10 @@ a .hashtag:hover {
 	}
 }
 /********* РАЗМЕТКА КОНЕЦ *********/
-
 /********* СТИЛИ ДЛЯ ГЛАВНЫХ СТРАНИЦ *********/
 #main_title_neva, #main_subtitle_neva, #main_description_neva {
 	color: #152E51;
-  font-weight: lighter;
+    font-weight: lighter;
 }
 #main_title_neva, #main_title_cinemas, #main_title_studios, #main_title_emotion, #main_title_research {
 	width: 300px;
@@ -488,21 +486,21 @@ a .hashtag:hover {
 }
 #main_subtitle_neva, #main_subtitle_studios, #main_subtitle_emotion, #main_subtitle_research  {
 	width: 300px;
-  margin-top: 60px;
-  margin-bottom: -35px;
+	margin-top: 60px;
+	margin-bottom: -35px;
 	text-shadow: 0px 0px 1px black, 0 0 1em white;
 }
 #main_description_neva {
 	font-size: 1.4em;
 }
-#main_subtitle_research, #main_description_research, #main_subtitle_studios, #main_subtitle_emotion {
+#main_subtitle_research, #main_description_research, #main_subtitle_studios, #main_subtitle_emotion, #main_description_cinemas {
 	color: #000;
 	font-weight: lighter;
 }
 #main_description_research {
 	font-size: 1.4em;
 }
-#main_description_studios, #main_description_emotion {
+#main_description_studios, #main_description_emotion, #main_description_cinemas {
 	font-size: 1.4em;
 	color: #000;
 	width: 40%;
@@ -525,6 +523,7 @@ a .hashtag:hover {
 	font-weight: lighter;
 	text-shadow: 0px 0px 1px green, 0 0 1em white;
 }
+
 .main-pic-neva {
 	background:url(../img/new-neva-main-1.jpg) no-repeat;
 	background-size: cover;
@@ -555,14 +554,8 @@ a .hashtag:hover {
 	height: 720px;
 }
 .main-pic-cinemas {
-	background: -moz-linear-gradient(275deg, rgba(255,255,255,0.2) 0%, rgba(192,192,192,1) 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,0.2)), color-stop(100%, rgba(192,192,192,1)));
-	background: -webkit-linear-gradient(275deg, rgba(255,255,255,0.2) 0%, rgba(192,192,192,1) 100%);
-	background: -o-linear-gradient(275deg, rgba(255,255,255,0.2) 0%, rgba(192,192,192,1) 100%);
-	background: -ms-linear-gradient(275deg, rgba(255,255,255,0.2) 0%, rgba(192,192,192,1) 100%);
-	background: linear-gradient(175deg, rgba(255,255,255,0.2) 0%, rgba(192,192,192,1) 100%); /
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#c0c0c0',GradientType=0 );
-	/*background: url(../img/cinemas-main.png) no-repeat;*/
+	background: url(../img/cinemas-main.png) no-repeat;
+	width: auto;
 	height: 720px;
 
 }
@@ -893,7 +886,7 @@ img .laptop {
 	margin-bottom: 180px;
 }
 .page-news_img {
-	float: right;;
+	float: right;
 	margin-bottom: 30px;
 }
 /********* СТИЛИ ДЛЯ НОВОСТЕЙ (БЛОКА И СТРАНИЦ) КОНЕЦ *********/
@@ -904,19 +897,19 @@ img .laptop {
 	background-size: 100% !important;
 }
 .__cinema-market {
-	background: url(../img/cinema-market.png) no-repeat;
+	background: url('../img/cinema-market.png') no-repeat;
 }
 .__premium-research {
-	background: url(../img/premium-research.png) no-repeat;
+	background: url('../img/premium-research.png') no-repeat;
 }
 .__marketing-research {
-	background: url(../img/marketing-research.png) no-repeat;
+	background: url('../img/marketing-research.png') no-repeat;
 }
 .__reports {
-	background: url(../img/reports.png) no-repeat;
+	background: url('../img/reports.png') no-repeat;
 }
 .__library {
-	background: url(../img/library-mainpic.png) no-repeat;
+	background: url('../img/library-mainpic.png') no-repeat;
 }
 .__equipment-cinemas {
 	background: url('../img/cinemas-equipmain-pic.png') no-repeat;
@@ -939,16 +932,16 @@ img .laptop {
 /********* СТИЛИ ДЛЯ СТРАНИЦ ОТДЕЛА STUDIOS  *********/
 .studios-service-section {
 	width: 100%;
-  min-height: 666px;
-  text-align: center;
+ 	min-height: 666px;
+  	text-align: center;
 	background-color: #f2f2f2;
 	padding-top: 1px;
 	border-bottom: 10px solid white;
 }
 .studios-service-description {
 	width: 100%;
-  text-align: left;
-  font-size: 1.3em;
+  	text-align: left;
+  	font-size: 1.3em;
 	font-weight: lighter;
 	color: #000;
 }
@@ -972,8 +965,8 @@ img .laptop {
 }
 .studios-section-digital {
 	width: 100%;
-  min-height: 785px;
-  text-align: center;
+  	min-height: 785px;
+  	text-align: center;
 	background-color: #f2f2f2;
 	padding-top: 1px;
 	border-bottom: 10px solid white;
@@ -1029,17 +1022,17 @@ img .laptop {
 }
 .dubbing-wrapper {
 	background: url("../img/dubbing-01.min.svg") no-repeat;
-	background-size: 30%;
+	background-size: 25%;
 	width: 100%;
-	height: 656px;
+	height: 600px;
 	position: absolute;
 	opacity: 0.2;
 	background-position: 51% 19%;
 }
 .postproduction-wrapper {
 	background: url("../img/post_production-01.min.svg") no-repeat;
-	background-size: 38%;
-	background-position: 51% 95%;
+	background-size: 33%;
+	background-position: 50% 73%;
 	width: 100%;
 	height: 385px;
 	position: absolute;
@@ -1047,29 +1040,53 @@ img .laptop {
 }
 .digital-wrapper {
 	background: url("../img/digital_lab-01.min.svg") no-repeat;
-	background-size: 28%;
+	background-size: 23%;
 	background-position: 50% 50%;
 	width: 100%;
-	height: 433px;
+	height: 410px;
 	position: absolute;
 	opacity: 0.1;
 }
 .tiflo-wrapper {
 	background: url("../img/Tifla-01.min.svg") no-repeat;
-	background-size: 23%;
+	background-size: 18%;
 	background-position: 50% 8%;
 	width: 100%;
-	height: 270px;
+	height: 455px;
 	position: absolute;
 	opacity: 0.1;
 }
-.popuptext_description {
-	width: 113%;
+.studios-service-contacts {
+	width: 100%;
+}
+.studios-service-contacts-about {
+	font-weight: lighter;
+	display: inline-block;
+	margin-right: 26px;
+	margin-left: 0px;
+	margin-top: 100px;
+}
+.studios-service-contacts-tel {
+	background: url('../img/phone-call-studios.min.svg') no-repeat;
+	background-size: 80%;
 	position: relative;
-	top: -20px;
+	display: inline-block;
+	vertical-align: top;
+	height: 50px;
+	width: 50px;
+	z-index: 500;
+}
+.studios-service-contacts-email {
+	background: url('../img/email-studios.min.svg') no-repeat;
+	background-size: 80%;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	height: 50px;
+	width: 50px;
+	z-index: 500;
 }
 /********* СТИЛИ ДЛЯ СТРАНИЦ ОТДЕЛА STUDIOS КОНЕЦ *********/
-
 
 /********* СТИЛИ ДЛЯ СТРАНИЦ ОТДЕЛА RESEARCH  *********/
 @media (max-width: 1199px) {
@@ -1095,28 +1112,43 @@ img .laptop {
 }
 .__russia {
 	background: url('../img/Russia-01.min.svg') no-repeat;
+	top: 45px;
+	left: -8px;
 }
 .__kazahstan {
 	background: url('../img/Kazakhstan.min.svg') no-repeat;
+	top: 45px;
+	left: -8px;
 }
 .__belarus {
 	background: url('../img/Belarus.min.svg') no-repeat;
+	top: 45px;
+	left: -8px;
 }
 .__issledovaniya {
 	background: url('../img/Isledovaniy.min.svg') no-repeat;
+	top: 45px;
+	left: -8px;
 }
 .__calendar {
 	background: url('../img/calendar.min.svg') no-repeat;
 }
 .__rep1 {
 	background: url('../img/icon_library-01.min.svg') no-repeat;
+	top: 45px;
+	left: -8px;
+
 }
 .__rep2 {
 	background: url('../img/icon_library-02.min.svg') no-repeat;
-	background-size: 93%;
+	background-size: 93% !important;
+	top: 45px;
+	left: -8px;
 }
 .__rep3 {
 	background: url('../img/icon_library-03.min.svg') no-repeat;
+	top: 45px;
+	left: -8px;
 }
 .cinemas__tel {
 	background: url('../img/phone-call.cinemas.min.svg') no-repeat;
@@ -1424,7 +1456,6 @@ img .laptop {
 .emotion-films-nav li {
 	display: inline;
 }
-
 .emotion-films-nav a {
 	display: inline-block;
 	vertical-align: top;
@@ -1520,8 +1551,6 @@ img .laptop {
 .logo {
 	float:left;
 	margin-left: 15px;
-	margin-top: 5px;
-	margin-bottom: 5px;
 }
 .main-menu {
     margin: 0;
@@ -1747,7 +1776,6 @@ and (max-device-width : 994px) {
     border-bottom: 1px solid #767677;
 }*/
 /********* STYLES FOR HAMBURGER THE END *********/
-
 
 
 /********* STYLES FOR SLIDER *********/
@@ -2100,9 +2128,12 @@ and (max-device-width : 994px) {
 }
 /***STYLES FOR SLIDER THE END***/
 
+
 /********* СТИЛИ ДЛЯ ФОРМ *********/
 
+
 /********* СТИЛИ ДЛЯ ФОРМ КОНЕЦ *********/
+
 
 /****** КНОПКИ ******/
 .btn {
@@ -2237,6 +2268,7 @@ fieldset[disabled] .btn-primary.focus {
 }
 /****** КНОПКИ ******/
 
+
 /****** Pagination *******/
 .pagination {
   display: inline-block;
@@ -2336,6 +2368,8 @@ fieldset[disabled] .btn-primary.focus {
 }
 /****** Pagination THE END *******/
 
+
+
 /****** СТРАНИЦА 404 *******/
 .not-found-page__description {
 	max-width: 55%;
@@ -2349,6 +2383,46 @@ fieldset[disabled] .btn-primary.focus {
 	margin-bottom: 90px;
 }
 /****** СТРАНИЦА 404 THE END *******/
+
+
+/****** КОНТАКТЫ*******/
+.contacts-map-1 {
+	margin-top: 50px;
+}
+
+.contacts-map-2 {
+	margin-bottom: 90px;
+}
+.contacts-map-info-1 {
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	top: 112px;
+	opacity: 0.7;
+}
+.contacts-map-info-neva {
+	background-color: #2D394A;
+}
+.contacts-map-info-2  {
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	top: 517px;
+	opacity: 0.7;
+}
+.contacts-map-info-title {
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	font-weight: lighter;
+}
+.contacts-map-info-description {
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+}
+/****** КОНТАКТЫ КОНЕЦ*******/
+
 
 /****** СТИЛИ ДЛЯ ТАБЛИЦ ******/
 table {
@@ -2367,4 +2441,76 @@ th {
 	padding: 10px;
 	border: 1px solid #BFBFBF;
 }
+.cinemas-table-title {
+	color: #69ac74;
+	font-size: 18px;
+}
 /****** СТИЛИ ДЛЯ ТАБЛИЦ THE END *****/
+
+
+/****** FORMS *******/
+
+/* Базовые стили формы */
+form {
+  margin:0 auto;
+  max-width:50%;
+  box-sizing:border-box;
+  padding:40px;
+  border-radius:5px;
+}
+/* Стили полей ввода */
+.textbox {
+  height:50px;
+  width:100%;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 2px solid;
+  box-sizing:border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size:18px;
+  padding:10px;
+  margin-bottom:30px;
+}
+.message:focus,
+.textbox:focus{
+  outline:none;
+   border:rgba(24,149,215,1) 2px solid;
+   color:rgba(24,149,215,1);
+}
+/* Стили текстового поля */
+.message {
+    background: rgba(255, 255, 255, 0.4);
+    width:100%;
+    height: 120px;
+    border:rgba(0,0,0,.3) 2px solid;
+    box-sizing:border-box;
+    -moz-border-radius: 3px;
+    font-size:18px;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    display:block;
+    padding:10px;
+    margin-bottom:30px;
+    overflow:hidden;
+}
+/* Базовые стили кнопки */
+.button {
+  height:50px;
+  width:100%;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 0px solid;
+  box-sizing:border-box;
+  padding:10px;
+  background:#0f2345;
+  color:#FFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:400;
+  font-size: 16pt;
+  transition:background .4s;
+  cursor:pointer;
+}
+/* Изменение фона кнопки при наведении */
+.button:hover{
+  background:#80b438;
+}
+/****** FORMS THE END *******/
