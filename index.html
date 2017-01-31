@@ -139,16 +139,20 @@
     </header>
       <main class="container-fluid clearfix">
         <!-- <div class="row"> -->
-          <section class="main-pic-neva">
+          <!--<section class="main-pic-neva">-->
             <!--<img src="img/new-neva-main.jpg" class="img-responsive" alt="new-neva-main" width="1280" height="727">-->
+            <!-- particles.js container -->
+            <div id="particles-js"></div>
             <div class="container">
+            <div class="titles">
             <h2 id="main_subtitle_neva">КОМПАНИЯ</h2>
             <h1 id="main_title_neva">НЕВАФИЛЬМ</h1>
             <p id="main_description_neva">ОЗВУЧИВАНИЕ И ДУБЛИРОВАНИЕ ФИЛЬМОВ,<br>
             ОБОРУДОВАНИЕ КИНОТЕАТРОВ,<br>
             АНАЛИТИКА КИНОРЫНКА, КРЕАТИВНЫЙ КОНТЕНТ</p>
             </div>
-          </section>
+            </div>
+          <!--</section>-->
         <!-- </div> -->
           <section class="main-news">
             <div class="main-news__content">
@@ -425,10 +429,32 @@
         </div>
     </footer>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="public/js/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="public/js/bootstrap.min.js"></script>
+    <!-- scripts -->
+    <script src="particles.js"></script>
+    <script src="public/js/app.js"></script>
+
+    <!-- stats.js -->
+    <script src="public/js/lib/stats.js"></script>
+    <!--<script>
+      var count_particles, stats, update;
+      stats = new Stats;
+      stats.setMode(0);
+      stats.domElement.style.position = 'absolute';
+      stats.domElement.style.left = '0px';
+      stats.domElement.style.top = '0px';
+      document.body.appendChild(stats.domElement);
+      count_particles = document.querySelector('.js-count-particles');
+      update = function() {
+        stats.begin();
+        stats.end();
+        if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+          count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+        }
+        requestAnimationFrame(update);
+      };
+      requestAnimationFrame(update);
+    </script>-->
+
     <!--<script>
       $('#myCarousel').bind('slide.bs.carousel', function (e) {
         console.log('slide event!');
@@ -472,5 +498,9 @@
 
         })();
     </script>-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="public/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="public/js/bootstrap.min.js"></script>
   </body>
 </html>
