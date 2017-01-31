@@ -611,17 +611,17 @@ img .laptop {
 	}
 }
 @media (max-width: 900px) {
-	.main-pic-neva, .main-pic-cinemas, .main-pic-emotion, .main-pic-studios, .main-pic-research, .laptop {
+		#particles-js, .main-pic-neva, .main-pic-cinemas, .main-pic-emotion, .main-pic-studios, .main-pic-research, .laptop {
 		height: 400px;
 	}
 }
 @media (max-width: 480px) {
-	.main-pic-neva, .main-pic-cinemas, .main-pic-emotion, .main-pic-studios, .main-pic-research, .laptop {
+		#particles-js, .main-pic-neva, .main-pic-cinemas, .main-pic-emotion, .main-pic-studios, .main-pic-research, .laptop {
 		height: 300px;
 	}
 }
 @media (max-width: 320px) {
-	.main-pic-neva, .main-pic-cinemas, .main-pic-emotion, .main-pic-studios, .main-pic-research, .laptop {
+	#particles-js, .main-pic-neva, .main-pic-cinemas, .main-pic-emotion, .main-pic-studios, .main-pic-research, .laptop {
 		height: 200px;
 	}
 }
@@ -641,7 +641,6 @@ img .laptop {
 @media (max-width: 450px) {
 	#main_subtitle_neva {
 		font-size: 1em;
-		margin-top: 9px;
 	}
 	#main_title_neva {
 		font-size: 2em;
@@ -798,7 +797,7 @@ img .laptop {
 @media (max-width: 1024px) {
 	.main-news {
 		width: 47.5%;
-		min-height: 586px;
+		min-height: 720px;
 	}
 }
 @media (max-width: 1076px) {
