@@ -480,6 +480,7 @@ a .hashtag:hover {
 .titles {
 	position: absolute;
 	top: 70px;
+	z-index: 50;
 }
 #main_title_neva, #main_subtitle_neva, #main_description_neva {
 	color: #152E51;
@@ -540,7 +541,15 @@ a .hashtag:hover {
 	height: 720px;
 }
 */
-
+.main-pic-neva {
+	background: url(../img/nevafilm-backside.png) no-repeat;
+	position: absolute;
+	z-index: 30;
+	width: 100%;
+	height: 678px;
+	background-size: 53%;
+	background-position-y: 369px;
+}
 /***** PARTICLES *****/
 
 canvas{
@@ -552,6 +561,7 @@ canvas{
 
 #particles-js {
   width: 100%;
+
 	background: rgba(255,255,255,1);
 	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 1%, rgba(255,255,255,1) 5%, rgba(21,46,81,1) 100%);
 	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(0%, rgba(255,255,255,1)), color-stop(1%, rgba(255,255,255,1)), color-stop(5%, rgba(255,255,255,1)), color-stop(100%, rgba(21,46,81,1)));
@@ -562,6 +572,7 @@ canvas{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#152e51', GradientType=0 );
 	height: 720px;
 	position: relative;
+	z-index: 29;
 }
 /***** PARTICLES THE END *****/
 
@@ -674,11 +685,11 @@ img .laptop {
 	background: -ms-linear-gradient(top, rgba(255,255,255,0.74) 0%, rgba(255,255,255,0.73) 0%, rgba(255,255,255,0.73) 1%, rgba(255,255,255,0.73) 5%, rgba(194,194,194,0.73) 100%);
 	background: linear-gradient(to bottom, rgba(255,255,255,0.74) 0%, rgba(255,255,255,0.73) 0%, rgba(255,255,255,0.73) 1%, rgba(255,255,255,0.73) 5%, rgba(194,194,194,0.73) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c2c2c2', GradientType=0 );
-
 	float: right;
 	top: 61px;
 	position: absolute;
 	left: 52%;
+	z-index: 50;
 	/*box-shadow: 0 0 5px rgba(0,0,0,0.2);*/
 }
 .main-news__first {
