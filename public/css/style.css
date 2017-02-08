@@ -626,6 +626,10 @@ img .laptop {
 		#particles-js, .main-pic-neva, .main-pic-cinemas, .main-pic-emotion, .main-pic-studios, .main-pic-research, .laptop {
 		height: 400px;
 	}
+		#main_description_emotion, #main_description_studios, #main_description_cinemas  {
+			display: none;
+		}
+
 }
 @media (max-width: 480px) {
 		#particles-js, .main-pic-neva, .main-pic-cinemas, .main-pic-emotion, .main-pic-studios, .main-pic-research, .laptop {
@@ -835,6 +839,9 @@ img .laptop {
 	.main-pic-research img {
 		display: none;
 	}
+	.main-pic-neva {
+		display: none;
+	}
 }
 @media (max-width: 900px) {
 	.main-news__first {
@@ -970,8 +977,11 @@ img .laptop {
 	background: url('../img/cinemas-equipmain-pic.png') no-repeat;
 }
 .__films-emotion {
-	background: url('../img/main-nav-img-emotion.jpg') no-repeat;
+	background: url('../img/main-nav-img-emotion.png') no-repeat;
 	background-position: 38% 77%;
+}
+.__studios {
+	background: url('../img/studios-top.png') no-repeat;
 }
 .topPicture__title {
 	font-size: 3em;
