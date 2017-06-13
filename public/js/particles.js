@@ -12,6 +12,7 @@ var pJS = function(tag_id, params){
   var canvas_el = document.querySelector('#'+tag_id+' > .particles-js-canvas-el');
 
   /* particles.js variables with default values */
+	
   this.pJS = {
     canvas: {
       el: canvas_el,
@@ -20,14 +21,14 @@ var pJS = function(tag_id, params){
     },
     particles: {
       number: {
-        value: 900,
+        value: 9000,
         density: {
           enable: true,
-          value_area: 200
+          value_area: 500
         }
       },
       color: {
-        value: '#fff'
+        value: '#000000'
       },
       shape: {
         type: 'circle',
@@ -67,7 +68,7 @@ var pJS = function(tag_id, params){
       line_linked: {
         enable: true,
         distance: 100,
-        color: '#fff',
+        color: '#000',
         opacity: 1,
         width: 1
       },
