@@ -10,137 +10,89 @@
     <link href="public/css/style.css" rel="stylesheet">
   </head>
     <body>
-     <header class="container">
+    <header class="container">
       <div class="row">
-        <nav class="navbar">
+      <div class="logo">
+        <a href="cinemas.html"><img src="public/img/cinemas-logo.png" class="img-responsive logo" alt="nevafilm-logo" width="150" height="30">
+        </a>
+      </div>
+      <nav class="main-nav  main-nav--closed  main-nav--nojs">
+      <button class="main-nav__toggle" type="button"></button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__items">
+          <li class="main-nav__item">
+            <a href="index.html" class="__main-links">NEVAFILM</a>
+            <span class="main-nav__item-icon"></span>
+            <ul class="main-nav__sub-menu">
+              <li><a href="404.html">О&nbsp;компании</a></li>
+              <li><a href="news.html">Новости</a></li>
+              <li><a href="vacancies.html">Вакансии</a></li>
+              <li><a href="contacts.html"><b>Контакты</b></a></li>
+            </ul>
+          </li>
 
-      <button class="cmn-toggle-switch cmn-toggle-switch__htx">
-        <span>toggle menu</span>
-      </button>
+          <li class="main-nav__item">
+            <a href="studios.html" class="__main-links">STUDIOS</a>
+            <span class="main-nav__item-icon"></span>
+            <ul class="main-nav__sub-menu">
+              <li><a href="service-studios.html#dubbing">Дублирование<br>фильмов</a></li>
+              <li><a href="service-studios.html#postproduction">Post&nbsp;-&nbsp;production</a></li>
+              <li><a href="service-studios.htmlservice-studios.html#digital">Digital Lab</a></li>
+              <li><a href="404.html">Материалы</a></li>
+              <li><a href="contacts.html"><b>Контакты</b></a></li>
+            </ul>
+          </li>
 
-        <!-- <ul class="main-toggle-menu">
-          <li>
-            <a href="/" class="__main-links">NEVAFILM</a>
-            <ul class="sub-menu">
-              <li><a href="/error-page">О&nbsp;компании</a></li>
-              <li><a href="/error-page"><b>Контакты</b></a></li>
+          <li class="main-nav__item">
+            <a href="cinemas.html" class="__main-links">CINEMAS</a>
+            <span class="main-nav__item-icon"></span>
+            <ul class="main-nav__sub-menu">
+              <li><a href="equip.html">Оборудование</a></li>
+              <li><a href="cinemas-service-1.html">Проектирование кинотеатров</a></li>
+              <li><a href="cinemas-service-2.html">Монтаж и пусконаладочные работы</a></li>
+              <li><a href="cinemas-service-3.html">Сервисное обслуживание</a></li>
+              <li><a href="news.html">Новости</a></li>
+              <li><a href="contacts.html"><b>Контакты</b></a></li>
             </ul>
           </li>
-          <li>
-            <a href="/studios" class="__main-links">STUDIOS</a>
-            <ul class="sub-menu">
-              <li><a href="404.html">Дублирование&nbsp;фильмов</a></li>
-              <li><a href="404.html">Post&nbsp;-&nbsp;production</a></li>
-              <li><a href="404.html">Digital Lab</a></li>
-              <li><a href="404.html"><b>Контакты</b></a></li>
+
+          <li class="main-nav__item">
+            <a href="research.html" class="__main-links">RESEARCH</a>
+            <span class="main-nav__item-icon"></span>
+            <ul class="main-nav__sub-menu">
+              <li><a href="library.html">Библиотека</a></li>
+              <li><a href="cinema-market.html">Cinema Market</a></li>
+              <li><a href="premium-research.html">Premium Research</a></li>
+              <li><a href="marketing-research.html">Маркетинговые исследования</a></li>
+              <li><a href="reports.html">Готовые отчеты</a></li>
+              <li><a href="news.html">Новости</a></li>
+              <li><a href="contacts.html"><b>Контакты</b></a></li>
             </ul>
           </li>
-          <li>
-            <a href="/cinemas" class="__main-links">CINEMAS</a>
-            <ul class="sub-menu">
-              <li><a href="404.html">Оборудование</a></li>
-              <li><a href="404.html">Проектирование кинотеатров</a></li>
-              <li><a href="404.html">Сервисное обслуживание</a></li>
-              <li><a href="404.html"><b>Контакты</b></a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="/research" class="__main-links">RESEARCH</a>
-            <ul class="sub-menu">
-              <li><a href="404.html">Библиотека</a></li>
-              <li><a href="404.html">Статистика</a></li>
-              <li><a href="404.html">Услуги</a></li>
-              <li><a href="404.html"><b>Контакты</b></a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="/emotion" class="__main-links">EMOTION</a>
-            <ul class="sub-menu">
+
+          <li class="main-nav__item">
+            <a href="emotion.html" class="__main-links">EMOTION</a>
+            <span class="main-nav__item-icon  .main-nav__sub-menu--closed"></span>
+            <ul class="main-nav__sub-menu">
               <li><a href="404.html">Материалы для&nbsp;кинотеатров</a></li>
-              <li><a href="404.html">Каталог&nbsp;фильмов</a></li>
-              <li><a href="404.html"><b>Контакты</b></a></li>
+              <li><a href="emotion-films.html">Каталог&nbsp;фильмов</a></li>
+              <li><a href="news.html">Новости</a></li>
+              <li><a href="contacts.html"><b>Контакты</b></a></li>
             </ul>
           </li>
-          <li>
-            <a href="/emotion" class="__main-links">НОВОСТИ</a>
-          </li>
-        </ul> -->
-
-
-
-
-          <a href="cinemas.html"><img src="public/img/cinemas-logo.png" class="img-responsive logo" alt="nevafilm-logo" width="150" height="30">
-          </a>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <ul class="main-menu">
-              <li>
-                <a href="index.html" class="__main-links">NEVAFILM</a>
-                  <ul class="sub-menu">
-                    <li><a href="404.html">О&nbsp;компании</a></li>
-                    <li><a href="404.html">Новости</a></li>
-                    <!-- <li><a href="/vacancies">Вакансии</a></li> -->
-                    <li><a href="404.html"><b>Контакты</b></a></li>
-                    <!-- <li><a href="/school-of-engineers">Школа киноинженеров</a></li> -->
-                  </ul>
-                </li>
-
-                <li>
-                  <a href="studios.html" class="__main-links">STUDIOS</a>
-                  <ul class="sub-menu">
-                    <li><a href="404.html">Дублирование&nbsp;фильмов</a></li>
-                    <li><a href="404.html">Post&nbsp;-&nbsp;production</a></li>
-                    <li><a href="404.html">Digital Lab</a></li>
-                    <li><a href="404.html">Материалы</a></li>
-                    <li><a href="404.html"><b>Контакты</b></a></li>
-                  </ul>
-                </li>
-
-                <li>
-                  <a href="cinemas.html" class="__main-links">CINEMAS</a>
-                  <ul class="sub-menu">
-                    <li><a href="404.html">Оборудование</a></li>
-                    <li><a href="404.html">Проектирование кинотеатров</a></li>
-                    <li><a href="404.html">Сервисное обслуживание</a></li>
-                    <li><a href="404.html">Новости</a></li>
-                    <li><a href="404.html"><b>Контакты</b></a></li>
-                  </ul>
-                </li>
-
-                <li>
-                  <a href="research.html" class="__main-links">RESEARCH</a>
-                  <ul class="sub-menu">
-                    <li><a href="404.html">Библиотека</a></li>
-                    <li><a href="404.html">Статистика</a></li>
-                    <li><a href="404.html">Услуги</a></li>
-                    <li><a href="404.html">Новости</a></li>
-                    <li><a href="404.html"><b>Контакты</b></a></li>
-                  </ul>
-                </li>
-
-                <li>
-                  <a href="emotion.html" class="__main-links">EMOTION</a>
-                  <ul class="sub-menu">
-                    <li><a href="404.html">Материалы для&nbsp;кинотеатров</a></li>
-                    <li><a href="404.html">Каталог&nbsp;фильмов</a></li>
-                    <li><a href="404.html">Новости</a></li>
-                    <li><a href="404.html"><b>Контакты</b></a></li>
-                  </ul>
-                </li>
-              </ul>
-              <!-- <ul class="login-entrance">
-                <li><a href="#">ВХОД</a></li>
-              </ul> -->
-          </nav>
-        </div>
+        </ul>
+      </div>
+      </nav>
+      </div>
     </header>
     <main class="container-fluid clearfix">
       <!-- <div class="row"> -->
         <section class="main-pic-cinemas">
-          <!--<img src="img/new-neva-main.jpg" class="img-responsive" alt="new-neva-main" width="1280" height="727">-->
+          <!--<img src="img/image_glavnaya.png" class="img-responsive" alt="image_glavnaya" width="1280" height="727">-->
           <div class="container">
           <h2 id="main_subtitle_neva">НЕВАФИЛЬМ</h2>
           <h1 id="main_title_cinemas">CINEMAS</h1>
-          <p id="main_description_neva">Проектирование и оборудование<br>кинотеатров и мультиплексов
+          <p id="main_description_cinemas">Проектирование и оборудование<br>кинотеатров и мультиплексов
           </p>
           </div>
         </section>
@@ -162,7 +114,7 @@
             <div class="main-news__first_links">
               <span class="main-news__line"></span>
               <span class="date">14.06.2016</span>
-              <a href="#"><span class="hashtag">#Cinemas</span></a>
+              <a href="#"><span class="hashtag hash-cinemas">#Cinemas</span></a>
             </div>
             <a href="#" class="main-news__more">Подробнее</a>
           </div>
@@ -174,7 +126,7 @@
              </p>
              <span class="date">01.03.2016</span>
             </a>
-            <a href="#"><span class="hashtag">#Cinemas</span></a>
+            <a href="#"><span class="hashtag hash-cinemas">#Cinemas</span></a>
             </div>
 
           <div class="main-news__preview_item">
@@ -183,7 +135,7 @@
              </p>
              <span class="date">21.12.2015</span>
             </a>
-            <a href="#"><span class="hashtag">#Cinemas</span></a>
+            <a href="#"><span class="hashtag hash-cinemas">#Cinemas</span></a>
           </div>
 
            <div class="main-news__preview_item">
@@ -192,7 +144,7 @@
              </p>
              <span class="date">25.11.2015</span>
             </a>
-            <a href="#"><span class="hashtag">#Cinemas</span></a>
+            <a href="#"><span class="hashtag hash-cinemas">#Cinemas</span></a>
           </div>
 
           <!-- <div class="main-news__preview_item">
@@ -238,7 +190,7 @@
           <div class="item active">
             <div class="container">
               <div class="carousel-caption">
-                <a href="#"><p class="carousel-caption-cinemas">ПОСТАВКА ОБОРУДОВАНИЯ ДЛЯ КИНОТЕАТРОВ</p></a>
+                <a href="equip.html"><p class="carousel-caption-cinemas">ПОСТАВКА ОБОРУДОВАНИЯ ДЛЯ КИНОТЕАТРОВ</p></a>
               </div>
               <img src="public/img/cinemas-slider-1.png" alt="cinemas-slider-1" width="1280" height="734">
             </div>
@@ -248,7 +200,7 @@
             <div class="carousel-caption">
               <a href="#"><p class="carousel-caption-cinemas">ОБСЛУЖИВАНИЕ КИНОТЕАТРОВ</p></a>
             </div>
-            <img src="public/img/Nevafilm_research.jpg" alt="research-slide-img" width="1280" height="734">
+            <img src="public/img/cinemas-slider-2.png" alt="cinemas-slider-2.png" width="1280" height="734">
           </div>
         </div>
         <div class="item">
@@ -256,7 +208,7 @@
             <div class="carousel-caption">
               <a href="#"><p class="carousel-caption-cinemas">ПРОЕКТИРОВАНИЕ КИНОТЕАТРОВ И МУЛЬТИПЛЕКСОВ</p></a>
             </div>
-            <img src="public/img/Nevafilm_emotion.jpg" alt="emotion-slide-img" width="1280" height="734">
+            <img src="public/img/cinemas-slider-3.png" alt="cinemas-slider-3.png" width="1280" height="734">
           </div>
         </div>
           <div class="item">
@@ -264,7 +216,7 @@
               <div class="carousel-caption">
               <a href="#"><p class="carousel-caption-cinemas">МОНТАЖ И ПУСКОНАЛАДОЧНЫЕ РАБОТЫ</p></a>
               </div>
-              <img src="public/img/Nevafilm_cinemas.jpg" alt="cinemas-slide-img.png" width="1280" height="734">
+              <img src="public/img/cinemas-slider-4.png" alt="cinemas-slider-4.png" width="1280" height="734">
             </div>
           </div>
         </div>
@@ -280,28 +232,48 @@
       <section class="hot-spots">
         <div class="col-md-3 hot-spots_item">
           <a href="">
-          <h4>Телефон экстренных вызовов</h4>
-          <div class="svg-icon">
-          <svg id="Слой_1" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 300 300"><style>.st0{fill:#68a673}</style><path class="st0" d="M211 5.8H89.7C78 5.8 68.5 15.4 68.5 27v246.5c0 11.7 9.5 21.2 21.2 21.2H211c11.7 0 21.2-9.5 21.2-21.2V27c0-11.6-9.5-21.2-21.2-21.2zM78.2 44.3h144.4v183H78.2v-183zm11.5-28.8H211c6.4 0 11.6 5.2 11.6 11.6v7.7H78.2V27c0-6.3 5.1-11.5 11.5-11.5zM211 285.1H89.7c-6.4 0-11.6-5.2-11.6-11.6v-36.6h144.4v36.6c.1 6.4-5.1 11.6-11.5 11.6zm0 0"/><path class="st0" d="M150.4 241.7c-10.6 0-19.3 8.7-19.3 19.3 0 10.6 8.6 19.3 19.3 19.3 10.6 0 19.3-8.7 19.3-19.3-.1-10.6-8.7-19.3-19.3-19.3zm0 28.9c-5.3 0-9.6-4.3-9.6-9.6s4.3-9.6 9.6-9.6 9.6 4.3 9.6 9.6-4.3 9.6-9.6 9.6zm0 0M131.1 29.9h19.3c2.7 0 4.8-2.2 4.8-4.8 0-2.7-2.2-4.8-4.8-4.8h-19.3c-2.7 0-4.8 2.2-4.8 4.8 0 2.7 2.1 4.8 4.8 4.8zm0 0M164.8 29.9h4.8c2.7 0 4.8-2.2 4.8-4.8 0-2.7-2.2-4.8-4.8-4.8h-4.8c-2.7 0-4.8 2.2-4.8 4.8 0 2.7 2.2 4.8 4.8 4.8zm0 0M278.5 27.8a4.77 4.77 0 0 0-6.8 0 4.77 4.77 0 0 0 0 6.8c18 18 18 47.3 0 65.3a4.77 4.77 0 0 0 0 6.8c.9.9 2.2 1.4 3.4 1.4 1.2 0 2.5-.5 3.4-1.4 21.7-21.7 21.7-57.1 0-78.9zm0 0"/><path class="st0" d="M258.2 38.8a4.77 4.77 0 0 0-6.8 0 4.77 4.77 0 0 0 0 6.8c5.9 6 9.2 13.9 9.2 22.4 0 8.4-3.3 16.4-9.2 22.3a4.77 4.77 0 0 0 0 6.8c.9.9 2.2 1.4 3.4 1.4 1.2 0 2.5-.5 3.4-1.4 7.8-7.8 12-18.1 12-29.1.1-11.1-4.2-21.4-12-29.2zm0 0M29 34.6c1.9-1.9 1.9-4.9 0-6.8a4.77 4.77 0 0 0-6.8 0C.5 49.5.5 84.9 22.2 106.6c.9.9 2.2 1.4 3.4 1.4 1.2 0 2.5-.5 3.4-1.4 1.9-1.9 1.9-4.9 0-6.8-17.9-17.9-17.9-47.2 0-65.2zm0 0"/><path class="st0" d="M49.3 37.5a4.77 4.77 0 0 0-6.8 0c-7.8 7.8-12.1 18.1-12.1 29.2 0 11 4.3 21.4 12.1 29.1.9.9 2.2 1.4 3.4 1.4 1.2 0 2.5-.5 3.4-1.4 1.9-1.9 1.9-4.9 0-6.8-6-6-9.2-13.9-9.2-22.3s3.3-16.4 9.2-22.3c1.9-2 1.9-5.1 0-6.9zm0 0"/>
+          <h4>Линия технической поддержки</h4>
+          <!--<div class="svg-icon">-->
+          <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 300 300">
+            <style>.st0{fill:#68a672}.st1{fill:#FFF}</style>
+            <path class="st0" d="M211 5.8H89.7C78 5.8 68.5 15.4 68.5 27v246.5c0 11.7 9.5 21.2 21.2 21.2H211c11.7 0 21.2-9.5 21.2-21.2V27c0-11.6-9.5-21.2-21.2-21.2zM72 38.2h156.8v189.7H72V38.2zM212 9.3c10.6 0 16.8 11.1 16.8 17.5v8H72v-8.2c0-6.4 4.8-17.2 18.2-17.2H212zm-.1 282H90.4c-13 0-18.4-11.9-18.4-18.3v-41.7h156.8v42.5c0 10.7-10.5 17.5-16.9 17.5zm-.9-6.2"/>
+            <path class="st0" d="M150.4 241.7c-10.6 0-19.3 8.7-19.3 19.3 0 10.6 8.6 19.3 19.3 19.3 10.6 0 19.3-8.7 19.3-19.3-.1-10.6-8.7-19.3-19.3-19.3z"/>
+            <path class="st1" d="M150.4 277.2c-8.8 0-16-7.2-16-16 0-8.7 7.2-15.9 16-15.9s15.9 7.2 15.9 15.9c0 8.9-7.1 16-15.9 16z"/>
+            <path class="st0" d="M153.5 26.4H128c-1 0-1.7-.8-1.7-1.7 0-1 .8-1.7 1.7-1.7h25.4c1 0 1.7.8 1.7 1.7.1.9-.7 1.7-1.6 1.7zM172.4 26.4h-10.6c-1 0-1.7-.8-1.7-1.7 0-1 .8-1.7 1.7-1.7h10.6c1 0 1.7.8 1.7 1.7 0 .9-.8 1.7-1.7 1.7z"/><g id="XMLID_1_">
+            <path class="st0" d="M47.6 37.2c0 .4-.1.7-.3 1-.3.2-.6.5-.9.7-.2.1-.4.1-.7.1-1 0-1.8-.8-1.8-1.8 0-.5.2-1 .5-1.3.3-.3.8-.5 1.3-.5 1.1-.1 1.9.7 1.9 1.8zM47.1 93.9c.3.3.4.7.4 1.2 0 1-.8 1.8-1.9 1.8-.3 0-.6-.1-.9-.3-.2-.2-.4-.3-.6-.5-.3-.3-.4-.7-.4-1.1 0-1 .8-1.9 1.8-1.9.3 0 .6.1.9.2.4.4.6.5.7.6z"/>
+            <path class="st0" d="M43.9 37.2c0 1 .8 1.8 1.8 1.8.2 0 .5 0 .7-.1-7.6 6.4-12.4 15.8-12.6 27.2.1 11.6 5 21 12.8 27.4-.3-.1-.6-.2-.9-.2-1 0-1.8.8-1.8 1.9 0 .4.1.8.4 1.1-8.4-7.3-13.7-18.1-13.8-30.2.2-12.2 5.5-23 14-30.3-.4.4-.6.8-.6 1.4z"/></g><g id="XMLID_2_"><path class="st0" d="M29.6 105.8c0 1.2-.8 2.3-2 2.3-.2 0-.3 0-.5-.1-.5-.3-.9-.7-1.4-1.1-.2-.3-.3-.7-.3-1.1 0-1.2 1-2.2 2.2-2.2.2 0 .4 0 .6.1.3.2.5.4.8.6.4.6.6 1.2.6 1.5zM29.8 25.9c0 .4-.1.8-.3 1.1-.5.3-1 .7-1.4 1-.1 0-.3.1-.5.1-1.2 0-2.2-1-2.2-2.2 0-.4.1-.8.3-1.1.5-.4.9-.7 1.4-1.1.2 0 .3-.1.5-.1 1.2.1 2.2 1.1 2.2 2.3z"/>
+            <path class="st0" d="M29 104.4c-.3-.2-.5-.4-.8-.6.3.2.6.4.8.6z"/>
+            <path class="st0" d="M25.4 25.9c0 1.2 1 2.2 2.2 2.2.2 0 .3 0 .5-.1C16.8 36.5 9.5 49.8 9.4 65.9c.1 16.1 7.5 29.5 18.8 37.9-.2-.1-.4-.1-.6-.1-1.2 0-2.2 1-2.2 2.2 0 .4.1.8.3 1.1C13.8 97.6 6 82.7 5.9 65.9c.1-16.8 7.9-31.8 19.8-41.1-.2.3-.3.7-.3 1.1z"/></g><g id="XMLID_4_">
+            <path class="st0" d="M253 38.2c0 .4.1.7.3 1 .3.2.6.5.9.7.2.1.4.1.7.1 1 0 1.8-.8 1.8-1.8 0-.5-.2-1-.5-1.3-.3-.3-.8-.5-1.3-.5-1.1-.1-1.9.8-1.9 1.8zM253.4 95c-.3.3-.4.7-.4 1.2 0 1 .8 1.8 1.9 1.8.3 0 .6-.1.9-.3.2-.2.4-.3.6-.5.3-.3.4-.7.4-1.1 0-1-.8-1.9-1.8-1.9-.3 0-.6.1-.9.2-.3.3-.5.5-.7.6z"/>
+            <path class="st0" d="M266.7 67.2c-.1 11.6-5 21-12.8 27.4.3-.1.6-.2.9-.2 1 0 1.8.8 1.8 1.9 0 .4-.1.8-.4 1.1 8.3-7.3 13.7-18.1 13.8-30.2-.1-12.2-5.5-23-14-30.3.3.3.5.8.5 1.3 0 1-.8 1.8-1.8 1.8-.2 0-.4 0-.7-.1 7.8 6.4 12.6 15.8 12.7 27.3z"/></g><g id="XMLID_3_">
+            <path class="st0" d="M271 106.8c0 1.2.8 2.3 2 2.3.2 0 .3 0 .5-.1.5-.3.9-.7 1.4-1.1.2-.3.3-.7.3-1.1 0-1.2-1-2.2-2.2-2.2-.2 0-.4 0-.6.1-.3.2-.5.4-.8.6-.4.6-.6 1.2-.6 1.5zM270.7 26.9c0 .4.1.8.3 1.1.5.3 1 .7 1.4 1 .1 0 .3.1.5.1 1.2 0 2.2-1 2.2-2.2 0-.4-.1-.8-.3-1.1-.5-.4-.9-.7-1.4-1.1-.2 0-.3-.1-.5-.1-1.2.1-2.2 1.1-2.2 2.3z"/>
+            <path class="st0" d="M271.6 105.5c.3-.2.5-.4.8-.6-.3.1-.6.3-.8.6z"/>
+            <path class="st0" d="M275.1 26.9c0 1.2-1 2.2-2.2 2.2-.2 0-.3 0-.5-.1 11.3 8.5 18.6 21.8 18.7 37.9-.1 16.1-7.5 29.5-18.8 37.9.2-.1.4-.1.6-.1 1.2 0 2.2 1 2.2 2.2 0 .4-.1.8-.3 1.1 11.9-9.3 19.7-24.3 19.8-41.1-.1-16.8-7.8-31.8-19.8-41.1.2.4.3.7.3 1.1z"/></g>
           </svg>
-          </div>
+          <!--</div>-->
           </a>
         </div>
         <div class="col-md-3 hot-spots_item">
           <a href="#">
           <h4>Проектирование кинотеатров</h4>
-          <div class="svg-icon">
-          <svg id="Слой_1" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 300 300"><style>.st0{fill:#68a673}</style><path class="st0" d="M291.2 77.2H9.1c-2.9 0-4.9 1.9-4.9 4.9v209.1c0 2.9 1.9 4.9 4.9 4.9h282.1c2.9 0 4.9-1.9 4.9-4.9V82c-.1-2.9-2-4.8-4.9-4.8zm-155.7 9.7V155H86.9V86.9h48.6zm150.8 199.4h-73v-48.6h-9.7v48.6H13.9V86.9h63.2v73c0 2.9 1.9 4.8 4.9 4.8h58.3c2.9 0 4.9-1.9 4.9-4.8v-73h58.4v77.8h9.7V86.9h73v199.4zm0 0"/><path class="st0" d="M38.3 242.5h43.8v9.7H38.3zM38.3 262h87.5v9.7H38.3zM228 101.5h29.2v9.7H228zM228 120.9h43.8v9.7H228zM242.5 262h29.2v9.7h-29.2zM228 242.5h43.8v9.7H228zM291.2 4.2H9.1c-2.9 0-4.9 1.9-4.9 4.9v43.8c0 2.9 1.9 4.9 4.9 4.9h282.1c2.9 0 4.9-2 4.9-4.9V9.1c-.1-3-2-4.9-4.9-4.9zM286.3 48H13.9V14h34v19.4h9.7V13.9h38.9v19.4h9.7V13.9h38.9v19.4h9.7V13.9h38.9v19.4h9.7V13.9h38.9v19.4h9.7V13.9h34V48zm0 0M234.3 223.1c1 0 1.4-.5 2.4-1l32.1-13.6c1.9-.5 2.9-2.5 2.9-4.4 0-1.9-1-3.4-2.9-4.4l-32.1-13.6c-1-1-1.9-1.5-3.4-1.5H38.7c-2.9 0-4.9 1.9-4.9 4.9v29.2c0 2.9 1.9 4.8 4.9 4.8h194.6c0-.4.5-.4 1-.4zM77.2 208.5H228v4.8H77.2v-4.8zm160.5 2.4v-14.6l17 7.3-17 7.3zm-9.7-12.1H77.2v-4.9H228v4.9zm-184.9-4.9h24.3v19.5H43.1v-19.5zm0 0"/>
-          </svg>
-          </div>
+          <!--<div class="svg-icon">-->
+            <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 300 300">
+              <style>.st0{fill:#68a672}</style>
+              <path class="st0" d="M291.2 77.3H9.1c-2.9 0-4.9 1.9-4.9 4.9v209.1c0 2.9 1.9 4.9 4.9 4.9h282.1c2.9 0 4.9-1.9 4.9-4.9V82.2c-.1-3-2-4.9-4.9-4.9zm-149.4 3.5v78.7c0 1.6-2.3 1.9-2.5 1.9-.8.3-46.4-.1-56.6-.2-.2 0-2-.9-2-3.7V80.8h61.1zm150.8 211.8h-85.4v-54.8h-3.5v54.8l-196 .1V82.1c0-1.1 1.5-1.3 1.5-1.3h67.9V160c0 2.9 1.9 4.8 4.9 4.8h58.3c2.9 0 4.9-1.9 4.9-4.8V80.8l58.4-.1v84.2h3.5V80.6h83.7c1.7 0 1.7 1.9 1.7 1.9l.1 210.1zm-6.3-6.2"/>
+              <path class="st0" d="M38.3 242.5H82v3.5l-43.7.3zM38.3 262h87.5v3.6H38.3zM228 107.7h29.2v3.5H228zM228 127.2h43.8v3.5H228zM242.5 262h29.2v3.6h-29.2zM228 242.5h43.8v3.6H228zM291.2 4.2H9.1c-2.9 0-4.9 1.9-4.9 4.9v43.8c0 2.9 1.9 4.9 4.9 4.9h282.1c2.9 0 4.9-2 4.9-4.9V9.1c-.1-3-2-4.9-4.9-4.9zm1.4 49.5H7.7v-46h40.4L48 33.4h3.6V7.7h44.9l.1 25.7h2.8l.6-25.7h45.3v25.7h3.5V7.7h44.9l.3 25.7h3.2V7.7h45.5l-.1 25.7h3.6V7.7h46.4v46zm-6.3-5.7M234.3 223.1c1 0 1.4-.5 2.4-1l32.1-13.6c1.9-.5 2.9-2.5 2.9-4.4 0-1.9-1-3.4-2.9-4.4l-32.1-13.6c-1-1-1.9-1.5-3.4-1.5H38.7c-2.9 0-4.9 1.9-4.9 4.9v29.2c0 2.9 1.9 4.8 4.9 4.8h194.6c0-.4.5-.4 1-.4zM70.9 205.9h159v14h-159v-14zm162.4 13.6v-31l31.9 13.6s5.3 2 .2 4.2c-5 2.2-32.1 13.2-32.1 13.2zm-3.5-17h-159v-14h159v14zm-192.4-14h30V220h-30v-31.5zm1.9 2.4"/>
+            </svg>
+          <!--</div>-->
           </a>
         </div>
         <div class="col-md-3 hot-spots_item">
-          <a href="">
+          <a href="equip.html">
           <h4>Каталог оборудования</h4>
           <div class="svg-icon">
-          <svg id="Слой_1" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 300 300"><style>.st0{fill:#68a672}</style><path class="st0" d="M261.9 278.5V3.2L133 21.9 4 3.2v275.3l129 18.7 128.9-18.7zM16.5 16.5L124.2 34v251.3L16.5 268V16.5zm228 252l-102.8 16.8V34l102.8-17.5v252z"/><path class="st0" d="M161.3 170.5l63.6-9.2V43.9l-63.6 9.2v117.4zm12.5-108.2l38.6-5.6v96.5l-38.6 5.6V62.3zM41.1 161.3l63.6 9.2V53.1l-63.6-9.2v117.4zM53.6 56.7l38.5 5.6v96l-38.5-5.6v-96zM40 207.5l-1.3 9.8 64.1 9.3 1.2-9.8zM40 227.6l-1.3 9.8 64.1 9.3 1.2-9.8zM40 247.1l-1.3 9.8 64.1 9.3 1.2-9.8zM225.3 207.8l1.3 9.8-64 9.3-1.3-9.8zM225.3 227.9l1.3 9.8-64 9.3-1.3-9.8zM225.3 247.4l1.3 9.8-64 9.3-1.3-9.8z"/>
-          </svg>
+            <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 300 300">
+              <style>.st0{fill:#68a672}</style>
+              <path class="st0" d="M261.8 278.3V3L133.2 21.9 4.2 3.2v275.3l129 18.7 128.6-18.9zM7.8 7.2L131 25.1v268.2L7.8 274.9V7.2zm250.5 268.3l-123.8 18V25.1L258.6 7.4l-.3 268.1z"/>
+              <path class="st0" d="M161.3 170.5l63.6-9.2V43.9l-63.6 9.2v117.4zm3.5-114.2l56.5-8.2v110.4l-56.5 8.2V56.3zM41.1 161.3l63.6 9.2V53.1l-63.6-9.2v117.4zm3.3-113l56.7 7.7-.6 110.6-56.2-8.2V48.3zM39.2 213.9l-.5 3.4 64.1 9.3v-3.4zM39.2 233.8l-.5 3.6 64.1 9.3.4-3.6zM39.2 253.5l-.5 3.4 64.1 9.3.4-3.4zM226.2 214.3l.4 3.3-64 9.3-.5-3.5zM226.1 234.2l.5 3.5-64 9.3-.5-3.5zM226.1 253.8l.5 3.4-64 9.3-.5-3.4z"/>
+            </svg>
           </div>
           </a>
         </div>
@@ -309,107 +281,109 @@
           <a href="">
           <h4>Контакты</h4>
           <div class="svg-icon">
-          <svg id="Слой_1" xmlns="http://www.w3.org/2000/svg"  width="100" height="100" viewBox="0 0 190 190"><style>.st0{fill:#68a672}</style><path class="st0" d="M161.5 26c-15.8-15.8-36.8-24.5-59.2-24.5-3.7 0-6.6 3-6.6 6.6 0 3.7 3 6.6 6.6 6.6 18.8 0 36.5 7.3 49.8 20.6 13.3 13.3 20.6 31 20.6 49.8 0 3.7 3 6.6 6.6 6.6 3.7 0 6.6-3 6.6-6.6.1-22.2-8.6-43.3-24.4-59.1zm0 0"/><path class="st0" d="M134.2 85.2c0 3.7 3 6.6 6.6 6.6 3.7 0 6.6-3 6.6-6.6 0-24.9-20.3-45.2-45.2-45.2-3.7 0-6.6 3-6.6 6.6 0 3.7 3 6.6 6.6 6.6 17.7.1 32 14.4 32 32zm0 0M119.5 119c-10.1-.5-15.3 7-17.7 10.6-2.1 3-1.3 7.2 1.7 9.2 3 2.1 7.2 1.3 9.2-1.7 2.9-4.3 4.2-4.9 6-4.9 5.7.7 28.4 17.2 30.6 22.4.6 1.5.5 3-.1 4.8-2.4 7-6.3 12-11.4 14.3-4.8 2.2-10.7 2-17-.6-23.7-9.7-44.4-23.1-61.5-40C42.4 116 29 95.3 19.3 71.7c-2.6-6.3-2.8-12.2-.6-17.1 2.3-5.1 7.3-9 14.3-11.4 1.8-.6 3.3-.6 4.8-.1C43 45.4 59.6 68 60.2 73.7c.1 1.9-.6 3.2-4.8 6.1-3 2.1-3.8 6.2-1.7 9.2 2.1 3 6.2 3.8 9.2 1.7 3.6-2.5 11.1-7.6 10.6-17.8-.6-10.6-21.2-38.7-31-42.3-4.4-1.6-9-1.7-13.7-.1-10.6 3.6-18.3 9.9-22.1 18.4C3 57.5 3.1 67 7.1 76.8c10.3 25.3 24.7 47.4 42.9 65.8l.1.1c18.3 18.1 40.5 32.5 65.7 42.8 5.1 2.1 10 3.1 14.8 3.1 4.5 0 8.8-.9 12.8-2.7 8.5-3.9 14.8-11.5 18.4-22.2 1.6-4.7 1.6-9.3-.1-13.7-3.5-9.8-31.6-30.4-42.2-31zm0 0"/>
-          </svg>
+            <svg id="Слой_1" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 190 190">
+              <style>.st0{fill:#68a672}</style>
+              <path class="st0" d="M183.4 141.8l-27.1-27.1c-3.6-3.6-7.4-6.5-12.6-6.5-5.4 0-11.7 3-15.6 6.9l-10.6 10.6c-8.2-4.6-19.1-10.8-30.4-22.2C75.8 92.1 69.5 81.2 64.9 73l10.6-10.6c7.9-7.9 8-20.5.4-28.2l-27.2-27C45.1 3.5 40.2 1.5 35 1.5c-5.3 0-10.3 2-14.2 5.8-2.3 1.9-14 12.2-18.4 33.5-6.1 29.8 7.9 58.4 48.4 98.9 45.2 45.2 83.8 48.7 94.5 48.7 2.2 0 3.6-.1 4-.2 21.1-2.5 28.6-11.8 34.1-18.7 7.2-8.9 7.1-20.5 0-27.7zm-.9 23.1c-2.7 4.1-14.5 18-31.1 19 0 0-3.1.5-4.8.5-10.8 0-50.7-4.1-92.7-46.1C16.6 101 .9 70.7 5.2 45.1 9 22.3 20.5 11.8 20.9 11.5c0 0 4.3-6.8 13.2-6.9 4.9 0 9.3 1.6 10.7 3.1l28.3 28.9c3.1 3.1 7.8 14.5 0 22.3l-9.6 9.6c-3.1 3.4-3 5.7-1.3 8.8 5 8.9 9.7 16.3 22.8 29.3 13 13 29.5 22.9 31.8 22.9 2.7 0 3.1-.7 5.3-2.8l10.4-10c3.8-3.5 10.2-5 12.9-4.8 2.5.2 4.9 1.8 6.3 3.2l29.3 29.1c5.6 4.6 4.9 15.6 1.5 20.7zm-8.1-2.7"/>
+            </svg>
           </div>
           </a>
         </div>
       </section>
     </div>
   </main>
-    <footer class="container">
-      <div class="row">
-        <div class="col-md-5">
-          <h3>ОТДЕЛЫ</h3>
-          <div class="footer-container__departments">
-          <div class="col-md-2" role="navigation">
-           <h4 class="page-footer__header">NEVAFILM</h4>
-           <ul class="__links">
-             <li itemprop="name"><a href="#">О компании</a></li>
-             <li itemprop="name"><a href="#">Новости</a></li>
-             <li itemprop="name"><a href="#">Вакансии</a></li>
-             <li itemprop="name"><a href="#">Контакты</a></li>
-           </ul>
-           <h4 class="page-footer__header">STUDIOS</h4>
-           <ul class="__links">
-             <li itemprop="name"><a href="#">Фильмы</a></li>
-             <li itemprop="name"><a href="#">Материалы<br>для скачивания</a></li>
-             <li itemprop="name"><a href="#">Услуги</a></li>
-             <li itemprop="name"><a href="#">Контакты</a></li>
-           </ul>
-           <h4 class="page-footer__header">CINEMAS</h4>
-           <ul class="__links">
-             <li itemprop="name"><a href="#">Оборудование</a></li>
-             <li itemprop="name"><a href="#">Услуги</a></li>
-             <li itemprop="name"><a href="#">Новости</a></li>
-             <li itemprop="name"><a href="#">Контакты</a></li>
-           </ul>
-         </div>
-         <div class="col-md-2">
-           <h4 class="page-footer__header">RESEARCH</h4>
-           <ul class="__links">
-             <li itemprop="name"><a href="#">Новости</a></li>
-             <li itemprop="name"><a href="#">Стажировка</a></li>
-             <li itemprop="name"><a href="#">Услуги</a></li>
-             <li itemprop="name"><a href="#">Библиотека</a></li>
-           </ul>
-           <h4 class="page-footer__header">EMOTION</h4>
-           <ul class="__links">
-             <li itemprop="name"><a href="#">Каталог фильмов</a></li>
-             <li itemprop="name"><a href="#">Полезная информация<br>для кинотеатров</a></li>
-             <li itemprop="name"><a href="#">Новости</a></li>
-             <li itemprop="name"><a href="#">Контакты</a></li>
-           </ul>
-         </div>
-         </div>
+  <footer class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <h3>ОТДЕЛЫ</h3>
+        <div class="footer-container__departments">
+        <div class="col-md-2" role="navigation">
+         <h4 class="page-footer__header">NEVAFILM</h4>
+         <ul class="__links">
+           <li><a href="index.html">О компании</a></li>
+           <li><a href="#">Новости</a></li>
+           <li><a href="#">Вакансии</a></li>
+           <li><a href="#">Контакты</a></li>
+         </ul>
+         <h4 class="page-footer__header">STUDIOS</h4>
+         <ul class="__links">
+           <li><a href="#">Фильмы</a></li>
+           <li><a href="#">Материалы<br>для скачивания</a></li>
+           <li><a href="#">Услуги</a></li>
+           <li><a href="#">Контакты</a></li>
+         </ul>
+         <h4 class="page-footer__header">CINEMAS</h4>
+         <ul class="__links">
+           <li><a href="equip.html">Оборудование</a></li>
+           <li><a href="#">Услуги</a></li>
+           <li><a href="#">Новости</a></li>
+           <li><a href="#">Контакты</a></li>
+         </ul>
+       </div>
+       <div class="col-md-2">
+         <h4 class="page-footer__header">RESEARCH</h4>
+         <ul class="__links">
+           <li><a href="#">Новости</a></li>
+           <li><a href="#">Стажировка</a></li>
+           <li><a href="#">Услуги</a></li>
+           <li><a href="#">Библиотека</a></li>
+         </ul>
+         <h4 class="page-footer__header">EMOTION</h4>
+         <ul class="__links">
+           <li><a href="#">Каталог фильмов</a></li>
+           <li><a href="#">Полезная информация<br>для кинотеатров</a></li>
+           <li><a href="#">Новости</a></li>
+           <li><a href="#">Контакты</a></li>
+         </ul>
+       </div>
+       </div>
+      </div>
+      <div class="col-md-4">
+        <h3>БЫСТРЫЕ ССЫЛКИ</h3>
+        <div class="page-footer__links" role="navigation">
+        <ul class="__links">
+        <!-- <li itemprop="name"><a href="#">Школа киноинженеров</a></li> -->
+        <li><a href="#">Журнал Синемаскоп</a></li>
+        <li><a href="#">Готовые аналитические отчеты RESEARCH</a></li>
+        <li><a href="#">Цифровые кинопроекторы</a></li>
+        <li><a href="#">Проектирование кинотеатров</a></li>
+        <li><a href="#">Опрос российского кинозрителя 2016</a></li>
+        <li><a href="#">Дублирование фильмов</a></li>
+        <li><a href="#">Digital LAB</a></li>
+        <li><a href="#">Заявка на сервисное обслуживание кинотеатров</a></li>
+        </ul>
+      </div>
+      </div>
+      <div class="col-md-3">
+        <h3>КОНТАКТЫ</h3>
+        <div class="page-footer__contacts">
+          <h4 class="page-footer__header">НЕВАФИЛЬМ В САНКТ-ПЕТЕРБУРГЕ</h4>
+          <address>
+            199397, Санкт-Петербург,<br>
+            ул. Кораблестроителей, д. 33/2 Б<br>
+            <abbr title="Phone">P:</abbr> (812) 449-7070<br>
+            <abbr title="Fax">F:</abbr>(812) 352-6969
+          </address>
+          <address>
+            <strong>E-mail</strong><br>
+            <a href="maulto:#">welcome@nevafilm.ru</a>
+          </address>
+          <h4 class="page-footer__header">НЕВАФИЛЬМ В МОСКВЕ</h4>
+          <address>
+            127051, Москва,<br>
+            Цветной бульвар, д. 30, стр. 1<br>
+            Бизнес-центр "Цветной 30" 3-й этаж,
+            офис 307<br>
+            <abbr title="Phone">P:</abbr> (495) 699-7070
+          </address>
         </div>
-        <div class="col-md-4">
-          <h3>БЫСТРЫЕ ССЫЛКИ</h3>
-          <div class="page-footer__links" role="navigation">
-          <ul class="__links">
-          <!-- <li itemprop="name"><a href="#">Школа киноинженеров</a></li> -->
-          <li itemprop="name"><a href="#">Журнал Синемаскоп</a></li>
-          <li itemprop="name"><a href="#">Готовые аналитические отчеты RESEARCH</a></li>
-          <li itemprop="name"><a href="#">Цифровые кинопроекторы</a></li>
-          <li itemprop="name"><a href="#">Проектирование кинотеатров</a></li>
-          <li itemprop="name"><a href="#">Опрос российского кинозрителя 2016</a></li>
-          <li itemprop="name"><a href="#">Дублирование фильмов</a></li>
-          <li itemprop="name"><a href="#">Digital LAB</a></li>
-          <li itemprop="name"><a href="#">Заявка на сервисное обслуживание кинотеатров</a></li>
-          </ul>
+        <div class="page-footer-phone">
+        <h4 class="page-footer__header">БЕСПЛАТНАЯ ЛИНИЯ ТЕХНИЧЕСКОЙ ПОДДЕРЖКИ ДЛЯ ЦИФРОВЫХ КИНОТЕАТРОВ:</h4>
+          <h3 class="page-footer-phone-1">8-800-555-3455</h3>
+          <h3 class="page-footer-phone-1">(8-800-555-FILM)</h3>
         </div>
-        </div>
-        <div class="col-md-3">
-          <h3>КОНТАКТЫ</h3>
-          <div class="page-footer__contacts">
-            <h4 class="page-footer__header">НЕВАФИЛЬМ В САНКТ-ПЕТЕРБУРГЕ</h4>
-            <address>
-              199397, Санкт-Петербург,<br>
-              ул. Кораблестроителей, д. 33/2 Б<br>
-              <abbr title="Phone">P:</abbr> (812) 449-7070<br>
-              <abbr title="Fax">F:</abbr>(812) 352-6969
-            </address>
-            <address>
-              <strong>E-mail</strong><br>
-              <a href="maulto:#">welcome@nevafilm.ru</a>
-            </address>
-            <h4 class="page-footer__header">НЕВАФИЛЬМ В МОСКВЕ</h4>
-            <address>
-              127051, Москва,<br>
-              Цветной бульвар, д. 30, стр. 1<br>
-              Бизнес-центр "Цветной 30" 3-й этаж,<br>
-              офис 307<br>
-              <abbr title="Phone">P:</abbr> (495) 699-7070
-            </address>
-          </div>
-          <div class="page-footer-phone">
-          <h4 class="page-footer__header">БЕСПЛАТНАЯ ЛИНИЯ ТЕХНИЧЕСКОЙ ПОДДЕРЖКИ ДЛЯ ЦИФРОВЫХ КИНОТЕАТРОВ:</h4>
-            <h3 class="page-footer-phone-1">8-800-555-3455</h3>
-            <h3 class="page-footer-phone-1">(8-800-555-FILM)</h3>
-          </div>
-        </div>
-        </div>
-    </footer>
+      </div>
+      </div>
+  </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="public/js/jquery.min.js"></script>
@@ -424,7 +398,7 @@
         console.log("slid event!");
       });
     </script>
-    <script>
+    <!--<script>
         (function() {
 
           "use strict";
@@ -457,6 +431,6 @@
           }
 
         })();
-    </script>
+    </script>-->
   </body>
 </html>
