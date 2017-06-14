@@ -679,6 +679,8 @@ canvas {
 	background:url(../img/main-pic-studios.png) no-repeat;
 	width: auto;
 	height: 720px;
+	background-position-x: -86px;
+  background-position-y: -219px;
 }
 .main-pic-emotion {
 	background:url(../img/main-pic-emotion.png) no-repeat;
